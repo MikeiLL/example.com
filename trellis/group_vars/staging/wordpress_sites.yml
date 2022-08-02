@@ -1,0 +1,20 @@
+# Created by trellis-cli v1.1.0
+# Documentation: https://roots.io/trellis/docs/wordpress-sites/
+
+wordpress_sites:
+  example.com:
+    site_hosts:
+    - canonical: example.com
+      redirects:
+      - www.example.com
+    local_path: ../site
+    branch: main
+    repo: git@github.com:mikeill/example.com.git
+    repo_subtree_path: site
+    multisite:
+      enabled: false
+    ssl:
+      enabled: false
+      provider: letsencrypt
+    cache:
+      enabled: false

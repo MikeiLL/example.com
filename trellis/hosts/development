@@ -1,0 +1,8 @@
+# Add each host to the [development] group and to a "type" group such as [web] or [db].
+# List each machine only once per [group], even if it will host multiple sites.
+
+[development]
+192.168.56.5
+
+[web]
+192.168.56.5
