@@ -2,7 +2,7 @@
   "name": "roots/bedrock",
   "type": "project",
   "license": "MIT",
-  "description": "WordPress boilerplate with Composer, easier configuration, and an improved folder structure",
+  "description": "WordPress boilerplate with modern development tools, easier configuration, and an improved folder structure",
   "homepage": "https://roots.io/bedrock/",
   "authors": [
     {
@@ -17,7 +17,12 @@
     }
   ],
   "keywords": [
-    "bedrock", "composer", "roots", "wordpress", "wp", "wp-config"
+    "bedrock",
+    "composer",
+    "roots",
+    "wordpress",
+    "wp",
+    "wp-config"
   ],
   "support": {
     "issues": "https://github.com/roots/bedrock/issues",
@@ -27,24 +32,55 @@
     {
       "type": "composer",
       "url": "https://wpackagist.org",
-      "only": ["wpackagist-plugin/*", "wpackagist-theme/*"]
+      "only": [
+        "wpackagist-plugin/*",
+        "wpackagist-theme/*"
+      ]
+    },
+    {
+      "type": "vcs",
+      "no-api": true,
+      "url": "git@github.com:MikeiLL/elliptica-fusion-core.git"
+    },
+    {
+      "type": "vcs",
+      "no-api": true,
+      "url": "git@github.com:MikeiLL/elliptica-fusion-builder.git"
+    },
+    {
+      "type": "vcs",
+      "no-api": true,
+      "url": "git@github.com:MikeiLL/elliptica-layer-slider.git"
+    },
+    {
+      "type": "composer",
+      "url": "https://composer.deliciousbrains.com"
     }
   ],
   "require": {
-    "php": ">=7.4",
-    "composer/installers": "^2.1",
-    "vlucas/phpdotenv": "^5.4",
+    "php": ">=7.1",
+    "composer/installers": "^1.8",
+    "deliciousbrains-plugin/wp-migrate-db-pro": "*",
+    "deliciousbrains-plugin/wp-migrate-db-pro-cli": "*",
+    "deliciousbrains-plugin/wp-migrate-db-pro-media-files": "*",
+    "vlucas/phpdotenv": "^5.2",
     "oscarotero/env": "^2.1",
     "roots/bedrock-autoloader": "^1.0",
-    "roots/bedrock-disallow-indexing": "^2.0",
     "roots/wordpress": "6.0.1",
     "roots/wp-config": "1.0.0",
-    "roots/wp-password-bcrypt": "1.1.0",
-    "wpackagist-theme/twentytwentytwo": "^1.2"
+    "roots/wp-password-bcrypt": "1.0.0",
+    "wpackagist-plugin/constant-contact-forms": "^1.9",
+    "wpackagist-plugin/wordpress-seo": "^16.1.1",
+    "wpackagist-plugin/healcode-mindbody-widget": "^1.1",
+    "wpackagist-plugin/mz-mindbody-api": "^2.6",
+    "wpackagist-plugin/wp-mail-smtp": "^2.5",
+    "wpackagist-plugin/insert-headers-and-footers": "^1.6",
+    "wpackagist-plugin/webp-converter-for-media": "^3.0",
+    "wpackagist-plugin/query-monitor": "^3.7"
   },
   "require-dev": {
-    "squizlabs/php_codesniffer": "^3.7.1",
-    "roave/security-advisories": "dev-latest"
+    "squizlabs/php_codesniffer": "^3.5.8",
+    "roave/security-advisories": "dev-master"
   },
   "config": {
     "optimize-autoloader": true,
@@ -58,9 +94,15 @@
   "prefer-stable": true,
   "extra": {
     "installer-paths": {
-      "web/app/mu-plugins/{$name}/": ["type:wordpress-muplugin"],
-      "web/app/plugins/{$name}/": ["type:wordpress-plugin"],
-      "web/app/themes/{$name}/": ["type:wordpress-theme"]
+      "web/app/mu-plugins/{$name}/": [
+        "type:wordpress-muplugin"
+      ],
+      "web/app/plugins/{$name}/": [
+        "type:wordpress-plugin"
+      ],
+      "web/app/themes/{$name}/": [
+        "type:wordpress-theme"
+      ]
     },
     "wordpress-install-dir": "web/wp"
   },

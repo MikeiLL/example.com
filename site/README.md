@@ -13,8 +13,8 @@
     <img alt="Packagist" src="https://img.shields.io/packagist/v/roots/bedrock.svg?style=flat-square" />
   </a>
 
-  <a href="https://github.com/roots/bedrock/actions/workflows/ci.yml">
-    <img alt="Build Status" src="https://img.shields.io/github/workflow/status/roots/bedrock/CI?style=flat-square" />
+  <a href="https://circleci.com/gh/roots/bedrock">
+    <img alt="Build Status" src="https://img.shields.io/circleci/build/gh/roots/bedrock?style=flat-square" />
   </a>
 
   <a href="https://twitter.com/rootswp">
@@ -24,22 +24,25 @@
 
 <p align="center">
   <strong>A modern WordPress stack</strong>
+  <br />
+  Built with ❤️
 </p>
 
 <p align="center">
-  <a href="https://roots.io/"><strong><code>Website</code></strong></a> &nbsp;&nbsp; <a href="https://docs.roots.io/bedrock/master/installation/"><strong><code>Documentation</code></strong></a> &nbsp;&nbsp; <a href="https://github.com/roots/bedrock/releases"><strong><code>Releases</code></strong></a> &nbsp;&nbsp; <a href="https://discourse.roots.io/"><strong><code>Support</code></strong></a>
+  <a href="https://roots.io">Official Website</a> | <a href="https://roots.io/docs/bedrock/master/installation/">Documentation</a> | <a href="CHANGELOG.md">Change Log</a>
 </p>
 
-## Sponsors
+## Supporting
 
 **Bedrock** is an open source project and completely free to use.
 
-However, the amount of effort needed to maintain and develop new features and products within the Roots ecosystem is not sustainable without proper financial backing. If you have the capability, please consider [sponsoring Roots](https://github.com/sponsors/roots).
-
-<p align="center"><a href="https://github.com/sponsors/roots"><img height="32" src="https://img.shields.io/badge/sponsor%20roots-525ddc?logo=github&logoColor=ffffff&message=" alt="Sponsor Roots"></a></p>
+However, the amount of effort needed to maintain and develop new features and products within the Roots ecosystem is not sustainable without proper financial backing. If you have the capability, please consider donating using the links below:
 
 <div align="center">
-<a href="https://k-m.com/"><img src="https://cdn.roots.io/app/uploads/km-digital.svg" alt="KM Digital" width="148" height="111"></a> <a href="https://carrot.com/"><img src="https://cdn.roots.io/app/uploads/carrot.svg" alt="Carrot" width="148" height="111"></a> <a href="https://www.c21redwood.com/"><img src="https://cdn.roots.io/app/uploads/c21redwood.svg" alt="C21 Redwood Realty" width="148" height="111"></a> <a href="https://wordpress.com/"><img src="https://cdn.roots.io/app/uploads/wordpress.svg" alt="WordPress.com" width="148" height="111"></a> <a href="https://pantheon.io/"><img src="https://cdn.roots.io/app/uploads/pantheon.svg" alt="Pantheon" width="148" height="111"></a>
+
+[![Donate via Patreon](https://img.shields.io/badge/donate-patreon-orange.svg?style=flat-square&logo=patreon")](https://www.patreon.com/rootsdev)
+[![Donate via PayPal](https://img.shields.io/badge/donate-paypal-blue.svg?style=flat-square&logo=paypal)](https://www.paypal.me/rootsdev)
+
 </div>
 
 ## Overview
@@ -59,7 +62,7 @@ Much of the philosophy behind Bedrock is inspired by the [Twelve-Factor App](htt
 
 ## Requirements
 
-- PHP >= 7.4
+- PHP >= 7.1
 - Composer - [Install](https://getcomposer.org/doc/00-intro.md#installation-linux-unix-osx)
 
 ## Installation
@@ -67,13 +70,6 @@ Much of the philosophy behind Bedrock is inspired by the [Twelve-Factor App](htt
 1. Create a new project:
    ```sh
    $ composer create-project roots/bedrock
-   ```
-   By default, this installs the `dist` version of all dependent packages.  To install the `source` versions instead, update `composer.json` as follows:
-   ```json
-    "preferred-install": {
-      "roots/wordpress-no-content": "dist",
-      "*": "source"
-    },
    ```
 2. Update environment variables in the `.env` file. Wrap values that may contain non-alphanumeric characters with quotes, or they may be incorrectly parsed.
 
@@ -94,12 +90,26 @@ Much of the philosophy behind Bedrock is inspired by the [Twelve-Factor App](htt
 4. Set the document root on your webserver to Bedrock's `web` folder: `/path/to/site/web/`
 5. Access WordPress admin at `https://example.com/wp/wp-admin/`
 
+## Documentation
+
+Bedrock documentation is available at [https://roots.io/docs/bedrock/master/installation/](https://roots.io/docs/bedrock/master/installation/).
+
+## Contributing
+
+Contributions are welcome from everyone. We have [contributing guidelines](https://github.com/roots/guidelines/blob/master/CONTRIBUTING.md) to help you get started.
+
+## Bedrock sponsors
+
+Help support our open-source development efforts by [becoming a patron](https://www.patreon.com/rootsdev).
+
+<a href="https://kinsta.com/?kaid=OFDHAJIXUDIV"><img src="https://cdn.roots.io/app/uploads/kinsta.svg" alt="Kinsta" width="200" height="150"></a> <a href="https://k-m.com/"><img src="https://cdn.roots.io/app/uploads/km-digital.svg" alt="KM Digital" width="200" height="150"></a> <a href="https://carrot.com/"><img src="https://cdn.roots.io/app/uploads/carrot.svg" alt="Carrot" width="200" height="150"></a> <a href="https://www.c21redwood.com/"><img src="https://cdn.roots.io/app/uploads/c21redwood.svg" alt="C21 Redwood Realty" width="200" height="150"></a>
+
 ## Community
 
 Keep track of development and community news.
 
-- Join us on Discord by [sponsoring us on GitHub](https://github.com/sponsors/roots)
 - Participate on the [Roots Discourse](https://discourse.roots.io/)
 - Follow [@rootswp on Twitter](https://twitter.com/rootswp)
 - Read and subscribe to the [Roots Blog](https://roots.io/blog/)
 - Subscribe to the [Roots Newsletter](https://roots.io/subscribe/)
+- Listen to the [Roots Radio podcast](https://roots.io/podcast/)

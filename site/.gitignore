@@ -1,13 +1,17 @@
 # Application
 web/app/plugins/*
 !web/app/plugins/.gitkeep
+!web/app/plugins/wpforms*
+!web/app/plugins/views-for-wpforms*
+!web/app/plugins/LayerSlider
+!web/app/plugins/fusion-builder
+!web/app/plugins/fusion-core
 web/app/mu-plugins/*/
-web/app/themes/twentytwentytwo/
 web/app/upgrade
 web/app/uploads/*
 !web/app/uploads/.gitkeep
-web/app/cache/*
-
+web/.well-known/
+web/app/mu-plugins/wp-migrate-db-pro-compatibility.php
 # WordPress
 web/wp
 web/.htaccess
@@ -25,3 +29,6 @@ web/.htaccess
 
 # WP-CLI
 wp-cli.local.yml
+
+# Delecious Brains, Composer
+auth.json

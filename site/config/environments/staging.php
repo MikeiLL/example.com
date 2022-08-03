@@ -13,5 +13,6 @@ use Roots\WPConfig\Config;
  * Example: `Config::define('WP_DEBUG', true);`
  * Example: `Config::define('DISALLOW_FILE_MODS', false);`
  */
-
-Config::define('DISALLOW_INDEXING', true);
+Config::define('WP_DEBUG', true);
+Config::define('DISALLOW_FILE_MODS', false);
+Config::define('ALLOW_UNFILTERED_UPLOADS', true);
