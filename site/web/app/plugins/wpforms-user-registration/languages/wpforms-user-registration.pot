@@ -1,0 +1,230 @@
+# Copyright (C) 2020 WPForms User Registration
+# This file is distributed under the same license as the WPForms User Registration package.
+msgid ""
+msgstr ""
+"Project-Id-Version: WPForms User Registration\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: WPForms <support@wpforms.com>\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: class-user-activation.php:156, class-user-activation.php:228
+msgid "Approve"
+msgstr ""
+
+#: class-user-activation.php:157, class-user-activation.php:244
+msgid "Unapprove"
+msgstr ""
+
+#: class-user-activation.php:189
+msgid "Unapproved"
+msgstr ""
+
+#. translators: %s - number of users.
+#: class-user-activation.php:317
+msgid "%s user approved."
+msgid_plural "%s users approved."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %s - number of users.
+#: class-user-activation.php:322
+msgid "%s user unapproved."
+msgid_plural "%s users unapproved."
+msgstr[0] ""
+msgstr[1] ""
+
+#: class-user-activation.php:371
+msgid "<strong>ERROR:</strong> Your account must be activated before you can login."
+msgstr ""
+
+#: class-user-activation.php:490
+msgid "You can&#8217;t unapprove users."
+msgstr ""
+
+#: class-user-login-template.php:16
+msgid "User Login Form"
+msgstr ""
+
+#: class-user-login-template.php:18
+msgid "Allow your users to easily login to your site with their username and password."
+msgstr ""
+
+#: class-user-login-template.php:29
+msgid "Username or Email"
+msgstr ""
+
+#: class-user-login-template.php:40, class-user-registration-template.php:58, class-user-registration.php:589
+msgid "Password"
+msgstr ""
+
+#: class-user-login.php:71
+msgid "Hide the form if a user is already logged in"
+msgstr ""
+
+#: class-user-registration-template.php:17
+msgid "User Registration Form"
+msgstr ""
+
+#: class-user-registration-template.php:19
+msgid "Create customized WordPress user registration form and add them anywhere on your website."
+msgstr ""
+
+#: class-user-registration-template.php:24
+msgid "Don&#39;t Forget"
+msgstr ""
+
+#: class-user-registration-template.php:25
+msgid "Additional user registration options are available in the settings panel."
+msgstr ""
+
+#: class-user-registration-template.php:33, class-user-registration.php:576
+msgid "Name"
+msgstr ""
+
+#: class-user-registration-template.php:40
+msgid "Username"
+msgstr ""
+
+#: class-user-registration-template.php:47
+msgid "Email"
+msgstr ""
+
+#: class-user-registration-template.php:65
+msgid "Short Bio"
+msgstr ""
+
+#: class-user-registration-template.php:66
+msgid "Share a little information about yourself."
+msgstr ""
+
+#: class-user-registration.php:255
+msgid "Email address is required."
+msgstr ""
+
+#: class-user-registration.php:262
+msgid "A user with that username already exists."
+msgstr ""
+
+#: class-user-registration.php:269
+msgid "A user with that email already exists."
+msgstr ""
+
+#: class-user-registration.php:309
+msgid "Unable to create user account"
+msgstr ""
+
+#: class-user-registration.php:483, class-user-registration.php:444
+msgid "(Activation Required)"
+msgstr ""
+
+#: class-user-registration.php:493
+msgid "Site administrator must activate your account before you can login."
+msgstr ""
+
+#: class-user-registration.php:490
+msgid "IMPORTANT: You must activate your account before you can login. Please visit the link below."
+msgstr ""
+
+#: class-user-registration.php:445
+msgid "Account activation is required before the user can login."
+msgstr ""
+
+#: class-user-registration.php:450
+msgid "You must manually activate their account."
+msgstr ""
+
+#: class-user-registration.php:448
+msgid "The user has been emailed a link to activate their account."
+msgstr ""
+
+#: class-user-registration.php:527, class-user-registration.php:550
+msgid "User Registration"
+msgstr ""
+
+#: class-user-registration.php:561
+msgid "User Name"
+msgstr ""
+
+#: class-user-registration.php:564, class-user-registration.php:579, class-user-registration.php:605, class-user-registration.php:618, class-user-registration.php:723
+msgid "--- Select Field ---"
+msgstr ""
+
+#: class-user-registration.php:565
+msgid "If a username is not set or provided, it will become the user's email address"
+msgstr ""
+
+#: class-user-registration.php:592
+msgid "Auto generate"
+msgstr ""
+
+#: class-user-registration.php:602
+msgid "Website"
+msgstr ""
+
+#: class-user-registration.php:615
+msgid "Biographical Info"
+msgstr ""
+
+#: class-user-registration.php:633
+msgid "User Role"
+msgstr ""
+
+#: class-user-registration.php:646
+msgid "Send email to the user containing account information"
+msgstr ""
+
+#: class-user-registration.php:655
+msgid "Send email to the admin"
+msgstr ""
+
+#: class-user-registration.php:664
+msgid "Enable user activation"
+msgstr ""
+
+#: class-user-registration.php:673
+msgid "User Activation Method"
+msgstr ""
+
+#: class-user-registration.php:677
+msgid "User Email"
+msgstr ""
+
+#: class-user-registration.php:678
+msgid "Manual Approval"
+msgstr ""
+
+#: class-user-registration.php:680
+msgid "User Email method sends an email to the user with a link to activate their account. Manual Approval requires site admin to approve account."
+msgstr ""
+
+#: class-user-registration.php:695
+msgid "User Activation Confirmation Page"
+msgstr ""
+
+#: class-user-registration.php:697
+msgid "Home page"
+msgstr ""
+
+#: class-user-registration.php:699
+msgid "Select the page to show the user after they activate their account."
+msgstr ""
+
+#: class-user-registration.php:705
+msgid "Custom User Meta"
+msgstr ""
+
+#: class-user-registration.php:717
+msgid "Enter meta key..."
+msgstr ""
+
+#. translators: %d - field ID.
+#: class-user-registration.php:730
+msgid "Field #%d"
+msgstr ""

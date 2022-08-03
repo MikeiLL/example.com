@@ -1,0 +1,291 @@
+# Copyright (C) 2019 WPForms Stripe
+# This file is distributed under the same license as the WPForms Stripe package.
+# Translators:
+# FX Bénard <fxb@wp-translations.org>, 2019
+# Laura Sacco <laurasacco12@gmail.com>, 2019
+# raffaella isidori <words@raffaellaisidori.com>, 2019
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: WPForms Stripe\n"
+"Last-Translator: raffaella isidori <words@raffaellaisidori.com>, 2019\n"
+"Language-Team: Italian (Italy) (https://www.transifex.com/wp-translations/teams/64435/it_IT/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: it_IT\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#. translators: %s - WPForms.com documentation page URL.
+#: wpforms-stripe.php:62
+msgid ""
+"The WPForms Stripe plugin has been deactivated. Your site is running an "
+"outdated version of PHP that is no longer supported and is not compatible "
+"with the Stripe addon. <a href=\"%s\" target=\"_blank\" rel=\"noopener "
+"noreferrer\">Read more</a> for additional information."
+msgstr ""
+"Il plugin WPForms Stripe è stato disattivato. Il tuo sito utilizza una "
+"versione vecchia di PHP che non è più supportata e che non è compatibile con"
+" l'addon Stripe. <a href=\"%s\" target=\"_blank\" rel=\"noopener "
+"noreferrer\">Leggi qui</a> per maggiori informazioni. "
+
+#: src/Process.php:182
+msgid "Stripe payment stopped by conditional logic."
+msgstr "Il pagamento con Stripe è stato fermato dalla logica condizionale."
+
+#: src/Process.php:196
+msgid "Stripe payment stopped, missing token."
+msgstr "Il pagamento con Stripe è stato fermato, manca il token."
+
+#: src/Process.php:203
+msgid "Stripe payment stopped, missing keys."
+msgstr "Il pagamento con Stripe è stato fermato, mancano le chiavi."
+
+#: src/Process.php:209
+msgid "Stripe payment stopped, missing payment fields."
+msgstr ""
+"Il pagamento con Stripe è stato fermato, mancano i campi per il pagamento."
+
+#: src/Process.php:216
+msgid "Stripe payment stopped, invalid/empty amount."
+msgstr ""
+"Il pagamento con Stripe è stato fermato, l'importo non è valido o il campo è"
+" vuoto"
+
+#: src/Process.php:218
+msgid "Stripe payment stopped, amount less than minimum charge required."
+msgstr ""
+"Il pagamento con Stripe è stato fermato, l'importo è inferiore al minimo "
+"richiesto."
+
+#: src/Process.php368, src/Process.php:505
+msgid "Too many requests made to the API too quickly."
+msgstr "Troppe richieste fatte all'API troppo velocemente."
+
+#: src/Process.php372, src/Process.php:509
+msgid "Invalid parameters were supplied to Stripe API."
+msgstr "Sono stati inviati all'API di Stripe parametri non validi."
+
+#: src/Process.php376, src/Process.php:513
+msgid "Authentication with Stripe API failed."
+msgstr "L'autenticazione con l'API di Stripe non è riuscita"
+
+#: src/Process.php380, src/Process.php:517
+msgid "Network communication with Stripe failed."
+msgstr "La comunicazione di rete con Stripe non è riuscita."
+
+#: src/Process.php384, src/Process.php:521
+msgid "Unable to process Stripe payment."
+msgstr "Non è stato possibile elaborare il pagamento con Stripe."
+
+#: src/Process.php389, src/Process.php:526
+msgid "Unable to process payment."
+msgstr "Non è stato possibile elaborare il pagamento."
+
+#. translators: %s - error message.
+#. translators: %s - error message.
+#: src/Process.php397, src/Process.php:534
+msgid "Credit Card Payment Error: %s"
+msgstr "Errore nel pagamento con la carta di credito: %s"
+
+#: src/Process.php:403
+msgid "Stripe payment stopped by error"
+msgstr "Il pagamento con Stripe è stato fermato da un errore"
+
+#: src/Process.php:422
+msgid "Stripe subscription payment stopped, missing form settings."
+msgstr ""
+"Il pagamento dell'abbonamento con Stripe è stato fermato, mancano delle "
+"impostazioni del modulo."
+
+#: src/Process.php:427
+msgid "Stripe subscription payment stopped, customer email not found."
+msgstr ""
+"Il pagamento dell'abbonamento con Stripe è stato fermato, non è stata "
+"trovata l'email del cliente."
+
+#: src/Process.php:540
+msgid "Stripe subscription payment stopped by error"
+msgstr "Il pagamento dell'abbonamento con Stripe è stato fermato da un errore"
+
+#: src/Process.php594, src/Admin/Builder.php:196
+msgid "Daily"
+msgstr "Giornaliero"
+
+#: src/Process.php602, src/Admin/Builder.php:197
+msgid "Weekly"
+msgstr "Settimanale"
+
+#: src/Process.php610, src/Admin/Builder.php:198
+msgid "Monthly"
+msgstr "Mensile"
+
+#: src/Process.php618, src/Admin/Builder.php:199
+msgid "Quarterly"
+msgstr "Ogni tre mesi"
+
+#: src/Process.php626, src/Admin/Builder.php:200
+msgid "Semi-Yearly"
+msgstr "Ogni sei mesi"
+
+#: src/Process.php635, src/Admin/Builder.php:201
+msgid "Yearly"
+msgstr "Annuale"
+
+#: src/Admin/Builder.php:51
+msgid ""
+"When recurring subscription payments are enabled, the Customer Email is "
+"required. Please go to the Stripe payment settings and select a Customer "
+"Email."
+msgstr ""
+"Quando si abilitano i pagamenti ricorrrenti di un abbonamento, è necessaria "
+"l'email del cliente. Vai alle impostazioni dei pagamenti di Stripe e "
+"seleziona una email per il cliente."
+
+#. translators: %s - Admin area Payments settings page URL.
+#: src/Admin/Builder.php:88
+msgid ""
+"Before enabling Stripe payments you need to setup your Stripe API keys (both"
+" Live and Test) on the <a href=\"%s\">Settings page</a>."
+msgstr ""
+"Prima di abilitare i pagamenti con Stripe devi impostare le tue chiavi API "
+"di Stripe (sia Live sia Test) nella <a href=\"%s\">pagina delle "
+"impostazioni</a>."
+
+#: src/Admin/Builder.php:102
+msgid "To use Stripe payments you need to add a Credit Card field to the form"
+msgstr ""
+"Per utilizzare i pagamenti con Stripe devi aggiungere al modulo un campo per"
+" la carta di credito."
+
+#: src/Admin/Builder.php:110
+msgid "Enable Stripe payments"
+msgstr "Abilita i pagamenti con Stripe"
+
+#: src/Admin/Builder.php:122
+msgid "Payment Description"
+msgstr "Descizione del pagamento"
+
+#: src/Admin/Builder.php:125
+msgid ""
+"Enter your payment description. Eg: Donation for the soccer team. Only used "
+"for standard one-time payments."
+msgstr ""
+"Inserisci la descrizione per il pagamento. Ad esempio: donazione per la "
+"squadra di calcio. Questo viene usato solo per i pagamenti standard una-"
+"tantum."
+
+#: src/Admin/Builder.php:134
+msgid "Stripe Payment Receipt"
+msgstr "Ricevuta di pagamento di Stripe"
+
+#: src/Admin/Builder.php138, src/Admin/Builder.php:217
+msgid "--- Select Email ---"
+msgstr "--- Seleziona l'email ---"
+
+#: src/Admin/Builder.php:139
+msgid ""
+"If you would like to have Stripe send a receipt after payment, select the "
+"email field to use. This is optional but recommended. Only used for standard"
+" one-time payments."
+msgstr ""
+"Se vuoi che Stripe invii una ricevuta dopo il pagamento, seleziona il campo "
+"email da utilizzare. Questo è opzionale, ma suggerito. Viene usato solo per "
+"i pagamenti standard una-tantum."
+
+#: src/Admin/Builder.php150, src/Admin/Builder.php:230
+msgid "Process"
+msgstr "Elabora"
+
+#: src/Admin/Builder.php151, src/Admin/Builder.php:231
+msgid "Don't process"
+msgstr "Non elaborare"
+
+#: src/Admin/Builder.php:153
+msgid "this charge if"
+msgstr "questo cambia se"
+
+#: src/Admin/Builder.php:164
+msgid "Enable recurring subscription payments"
+msgstr "Abilita i pagamenti ricorrenti degli abbonamenti con Stripe"
+
+#: src/Admin/Builder.php:177
+msgid "Plan Name"
+msgstr "Nome del piano"
+
+#: src/Admin/Builder.php:181
+msgid ""
+"Enter the subscription name. Eg: Email Newsletter. Subscription period and "
+"price are automatically appended. If left empty the form name will be used."
+msgstr ""
+"Inserisci il nome del piano. Ad esempio: Newsletter. Il prezzo e il periodo "
+"di abbonamento vengono aggiunti automaticamente. Se lasciato vuoto, verrà "
+"usato il nome del modulo."
+
+#: src/Admin/Builder.php:190
+msgid "Recurring Period"
+msgstr "Periodo ricorrente"
+
+#: src/Admin/Builder.php:203
+msgid "How often you would like the charge to recur."
+msgstr "Ogni quanto vuoi che sia applicato il costo ."
+
+#: src/Admin/Builder.php:212
+msgid "Customer Email"
+msgstr "Email cliente"
+
+#: src/Admin/Builder.php:218
+msgid ""
+"Select the field that contains the customers email address. This field is "
+"required."
+msgstr ""
+"Seleziona il campo che contiene l'indirizzo email del cliente. Questo campo "
+"è obbligatorio."
+
+#: src/Admin/Builder.php:233
+msgid "payment as recurring if"
+msgstr "pagamento come ricorrente se"
+
+#. translators: %s - WPForms.com Stripe documentation article URL.
+#: src/Admin/Settings.php:50
+msgid ""
+"Keys can be found in your Stripe account dashboard. For more information see"
+" our <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">Stripe "
+"documentation</a>."
+msgstr ""
+"Le chiavi possono essere trovate nella bacheca del tuo account di Stripe. "
+"Per maggiori informazioni guarda la nostra <a href=\"%s\" target=\"_blank\" "
+"rel=\"noopener noreferrer\">documentazione su Stripe</a>."
+
+#: src/Admin/Settings.php:64
+msgid "Stripe"
+msgstr "Stripe"
+
+#: src/Admin/Settings.php:71
+msgid "Test Publishable Key"
+msgstr "Chiave pubblicabile del test"
+
+#: src/Admin/Settings.php:76
+msgid "Test Secret Key"
+msgstr "Chiave segreta di test"
+
+#: src/Admin/Settings.php:81
+msgid "Live Publishable Key"
+msgstr "Chiave pubblicabile del live"
+
+#: src/Admin/Settings.php:86
+msgid "Live Secret Key"
+msgstr "Chiave segreta del live"
+
+#: src/Admin/Settings.php:91
+msgid "Test Mode"
+msgstr "Modalità di test"
+
+#: src/Admin/Settings.php:92
+msgid "In test mode and no live Stripe transactions are processed."
+msgstr "Nella modalità test non viene elaborata alcuna transazione Stripe."

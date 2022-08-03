@@ -1,0 +1,4 @@
+node_modules/
+vendor/
+js/min/
+Gruntfile.js

@@ -1,0 +1,65 @@
+.fusion-color-palette-list {
+  margin: 0;
+  padding: 0;
+}
+
+.fusion-color-palette-list  .fusion-color-palette-item {
+  display: inline-block;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.fusion-color-palette-list .fusion-color-palette-item > span {
+  display: inline-block;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  width: 34px;
+  height: 34px;
+  border: 1px solid #d9d9d9;
+}
+
+.fusion-color-palette-list  .fusion-color-palette-item.color-palette-active > span {
+  margin-top: 0;
+  margin-bottom: 0;
+  border-top-width: 2px;
+  border-bottom-width: 2px;
+}
+
+.fusion-palette-colorpicker-container {
+  margin-top: 15px;
+  display: none;
+}
+
+.fusion-palette-colorpicker-container .wp-color-result {
+  display: none;
+}
+
+.fusion-palette-colorpicker-container .wp-picker-input-wrap {
+  display: block;
+}
+
+.fusion-palette-colorpicker-container .wp-picker-input-wrap label {
+  width: calc(100% - 52px);
+  float: left;
+}
+
+.fusion-palette-colorpicker-container .wp-picker-input-wrap label input[type="text"] {
+  display: inline-block;
+  width: 100% !important;
+}
+
+.fusion-palette-colorpicker-container .iris-picker {
+  display: block !important;
+}
+
+.fusion-palette-colorpicker-container .wp-picker-input-wrap .wp-picker-clear {
+  float: left;
+}
+
+
+.fusion-palette-colorpicker-container .wp-picker-holder {
+  clear: both;
+  padding-top: 5px;
+}

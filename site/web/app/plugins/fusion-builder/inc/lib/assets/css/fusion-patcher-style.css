@@ -1,0 +1,109 @@
+.fusion-patcher-table {
+  margin-top: 2em;
+  border-collapse: collapse;
+}
+
+.fusion-patcher-table tr {
+  border-bottom: 1px solid #dfdfdf;
+}
+
+.fusion-patcher-table thead th {
+  text-align: start;
+}
+
+.fusion-patcher-table tr th {
+  padding: 0 1em 0.5em 1em;
+}
+.fusion-patcher-table tr td {
+  padding: 1em;
+  line-height: 1.7;
+  vertical-align: top;
+}
+
+.fusion-patcher-table tr td:first-child {
+  min-width: 5em;
+}
+
+.fusion-patcher-table .patch-id .date {
+  font-size: 0.6em;
+}
+
+.fusion-patcher-table .patch-status {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.fusion-patcher-table .patch-status .fusiona-checkmark {
+  color: #65bc7b;
+}
+
+.fusion-patcher-table .patch-status .fusiona-cross {
+  color: #dc3232;
+}
+
+.avada-dashboard .fusion-patcher-table .patch-apply {
+  vertical-align: middle;
+}
+
+.fusion-patcher-table .patch-apply form {
+  text-align: end;
+}
+
+.avada-dashboard .fusion-patcher-table .patch-apply .disabled {
+  font-size: 0.6em;
+}
+
+.fusion-patcher-table .dismiss-notices {
+  margin-top: 1em;
+  font-size: 0.6em;
+
+}
+
+.avada-dashboard .fusion-patcher-table .dismiss-notices .button {
+  color: #dc3232;
+}
+
+.avada-dashboard .fusion-patcher-table .dismiss-notices .button:hover,
+.avada-dashboard .fusion-patcher-table .dismiss-notices .button:focus {
+  color: #dc3232;
+}
+
+/* 
+
+
+.fusion-patcher-table td.patch-product {
+  min-width: 120px;
+}
+
+
+
+*/
+
+.fusion-patcher-table .patch-failed-warning {
+  background: #ffcdd2;
+  color: #b71c1c;
+  border: 1px solid #ef9a9a;
+}
+
+.fusion-patcher-table .patch-failed-warning code {
+  color: #000;
+}
+
+.fusion-patcher-error {
+  background: #dc3232;
+  color: #fff;
+  font-size: 1.1em;
+  padding: 1.5em;
+  font-style: normal;
+  margin-bottom: 2em;
+}
+
+.fusion_page_fusion-plugins .theme-wrapper .update-message.notice.notice-warning {
+  background: rgba(213, 78, 33, .95);
+  border-left: none;
+  color: #fff;
+}
+
+.fusion_page_fusion-plugins .theme-wrapper .update-message.notice.notice-warning p:before {
+  color: rgba(255, 255, 255, .7);
+}

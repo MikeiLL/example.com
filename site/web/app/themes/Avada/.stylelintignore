@@ -1,0 +1,7 @@
+/node-modules
+/includes/lib
+/vendor
+/assets/less/plugins
+*.*
+!*.less
+!/assets/admin/css/avada-tax-meta.css

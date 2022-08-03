@@ -1,0 +1,22 @@
+#views-container{
+    font-size:16px;
+    color: #4b5966;
+    line-height: 1.5;
+}
+.viewHide{
+    display:none;
+}
+.post-type-wpforms-views #postbox-container-2 #wpforms-views-metabox .ui-sortable-handle{
+display: none;
+}
+.post-type-wpforms-views #postbox-container-2 #wpforms-views-metabox .inside{
+	padding:0px;
+}
+#wpforms-views-metabox{
+background: #f1f1f1;
+border: 0px;
+box-shadow: none;
+}
+#wpforms-views-metabox .handle-actions{
+	display:none;
+}

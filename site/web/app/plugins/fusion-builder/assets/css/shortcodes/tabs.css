@@ -1,0 +1,131 @@
+/* stylelint-disable length-zero-no-unit */
+/* stylelint-enable length-zero-no-unit */
+.fusion-tabs {
+  margin-bottom: 50px;
+}
+.fusion-tabs .nav {
+  display: none;
+}
+.fusion-tabs .nav a {
+  text-decoration: none;
+  box-shadow: none !important;
+}
+.fusion-tabs .fusion-mobile-tab-nav {
+  display: block;
+}
+.fusion-tabs.clean .tab-pane {
+  margin: 20px 0;
+}
+.fusion-tabs.clean .nav-tabs {
+  background: none;
+  border: none;
+}
+.fusion-tabs.clean .nav-tabs li {
+  margin-bottom: 10px;
+}
+.fusion-tabs.clean .nav-tabs li .tab-link {
+  padding: 14px 15px;
+  border: 1px solid;
+}
+.fusion-tabs.clean .nav-tabs li .tab-link:focus,
+.fusion-tabs.clean .nav-tabs li .tab-link:hover {
+  border: 1px solid;
+}
+.fusion-tabs.clean .tab-content {
+  margin-top: 20px;
+}
+.fusion-tabs.clean .tab-content .tab-pane {
+  padding: 0;
+  background: transparent;
+  border: none;
+}
+.fusion-tabs .nav-tabs {
+  display: block;
+  list-style: none outside none;
+  margin: 0;
+  padding: 0;
+  border: 1px solid #F1F2F2;
+  border-bottom: none;
+  background-color: #fff;
+}
+.fusion-tabs .nav-tabs:after,
+.fusion-tabs .nav-tabs:before {
+  content: " ";
+  display: table;
+}
+.fusion-tabs .nav-tabs:after {
+  clear: both;
+}
+.fusion-tabs .nav-tabs.nav-justified {
+  width: 100%;
+  border-bottom: 0 none;
+}
+.fusion-tabs .nav-tabs li {
+  display: block;
+  position: relative;
+  float: none;
+  text-align: center;
+  margin: 0;
+}
+.fusion-tabs .nav-tabs li .fusion-tab-heading {
+  margin: 0;
+}
+.fusion-tabs .nav-tabs li .tab-link {
+  display: block;
+  position: relative;
+  margin: 0;
+  padding: 11px 0;
+  line-height: normal;
+  border: none;
+  border-top: 3px solid #F1F2F2;
+  background-color: #F1F2F2;
+  color: #747474;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.fusion-tabs .nav-tabs li .tab-link:focus,
+.fusion-tabs .nav-tabs li .tab-link:hover {
+  border-top-color: #fff;
+  background-color: #fff;
+}
+.fusion-tabs .nav-tabs li .tab-link .fontawesome-icon {
+  float: none;
+  color: inherit;
+}
+.fusion-tabs .nav-tabs > .active > .tab-link {
+  border: none;
+  background-color: #fff;
+  cursor: pointer;
+}
+.fusion-body .fusion-tabs .nav-tabs > .active > .tab-link {
+  border-top-color: #65bc7b;
+}
+.fusion-body .fusion-tabs .nav-tabs > .active > .tab-link:focus,
+.fusion-body .fusion-tabs .nav-tabs > .active > .tab-link:hover {
+  border-top-color: #65bc7b;
+}
+.fusion-tabs .tab-content > .active {
+  display: block;
+}
+.fusion-tabs .tab-pane {
+  display: none;
+  padding: 15px;
+  max-width: 100%;
+  border: 1px solid #F1F2F2;
+  border-top: none;
+}
+.fusion-tabs.nav-not-justified .nav-tabs .tab-link {
+  padding: 11px 15px;
+}
+.fusion-tabs.classic.horizontal-tabs .nav-tabs > .active > .tab-link {
+  border-top-width: 3px;
+  border-top-style: solid;
+}
+.fusion-tabs.classic .tab-content .fusion-mobile-tab-nav:nth-last-child(2) .nav-tabs li:not(.active) {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-color: inherit;
+}
+.fusion-disable-outline .fusion-tabs .nav-tabs li .tab-link {
+  outline: 0;
+}

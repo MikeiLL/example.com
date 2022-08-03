@@ -1,0 +1,6 @@
+/node-modules
+/vendor
+/inc/lib
+*.*
+!*.less
+less/shortcodes/bootstrap/bootstrap-sc.less

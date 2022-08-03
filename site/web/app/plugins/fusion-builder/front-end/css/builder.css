@@ -1,0 +1,1450 @@
+.fusion-builder-live .fusion-child-sortables {
+  padding: 10px 20px;
+}
+.fusion-builder-live .fusion-builder-all-elements-container,
+.fusion-builder-live .fusion-builder-column-layouts-container {
+  position: relative;
+}
+.fusion-builder-live .fusion-builder-all-elements-container .fusion-tabs,
+.fusion-builder-live .fusion-builder-column-layouts-container .fusion-tabs {
+  overflow: hidden;
+  margin-bottom: 0;
+}
+.fusion-builder-live .fusion-global span.fusion-global-tooltip {
+  background: #32383c;
+  position: absolute;
+  left: 50%;
+  margin: 0 auto;
+  color: rgba(255, 255, 255, 0.82);
+  font-size: 14px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: 200;
+  top: -50px;
+  white-space: nowrap;
+  display: none;
+  z-index: 9999;
+  transform: translateX(-50%);
+}
+.fusion-builder-live .fusion-global span.fusion-global-tooltip:before {
+  content: "\f0d7";
+  font-family: fusion-builder-icons;
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  font-size: 30px;
+  color: #33393d;
+  transition: color 0.1s ease;
+}
+.fusion-builder-live .fusion-global:hover span.fusion-global-tooltip {
+  display: block;
+}
+.fusion-builder-live .fusion-global:hover h4.fusion-page-layout-title:before,
+.fusion-builder-live .fusion-global:hover h4.fusion_module_title:before {
+  color: #198fd9;
+}
+.fusion-builder-live .fusion-global h4.fusion-page-layout-title,
+.fusion-builder-live .fusion-global h4.fusion_module_title {
+  position: relative;
+  width: 100%;
+  line-height: 16px;
+}
+.fusion-builder-live .fusion-global h4.fusion-page-layout-title:before,
+.fusion-builder-live .fusion-global h4.fusion_module_title:before {
+  content: "\f0ac";
+  font-family: fusion-builder-icons;
+  font-size: 16px;
+  margin-right: 10px;
+  margin-left: 1px;
+  color: #93999f;
+  vertical-align: middle;
+}
+.fusion-builder-live .fusion-global h4.fusion-page-layout-title .fusion-global-tooltip-wrapper,
+.fusion-builder-live .fusion-global h4.fusion_module_title .fusion-global-tooltip-wrapper {
+  position: absolute;
+  width: 15px;
+  height: 16px;
+  top: 0;
+}
+.fusion-builder-live .fusion-builder-all-modules {
+  margin: 0;
+  padding: 10px 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  clear: both;
+}
+.fusion-builder-live .fusion-builder-all-modules li {
+  border: 1px solid #e0e3e7;
+  background-color: #fff;
+  text-align: center;
+  position: relative;
+  list-style-position: inside;
+  list-style-type: none;
+  cursor: pointer;
+  padding: 0 10px;
+  box-sizing: border-box;
+  margin: 7.5px;
+  width: 120px;
+  min-height: 110px;
+  align-items: center;
+  display: inline-flex;
+  justify-content: center;
+  flex-grow: 1;
+  border-radius: 4px;
+  transition: all 0.1s ease;
+}
+.fusion-builder-live .fusion-builder-all-modules li.spacer {
+  visibility: hidden;
+  height: 0 !important;
+  min-height: 0 !important;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+}
+.fusion-builder-live .fusion-builder-all-modules li .fusion-module-icon,
+.fusion-builder-live .fusion-builder-all-modules li .fusion_module_title,
+.fusion-builder-live .fusion-builder-all-modules li .fusion_module_title:before {
+  transition: all 0.1s ease;
+}
+.fusion-builder-live .fusion-builder-all-modules li:hover {
+  border: 1px solid #198fd9;
+}
+.fusion-builder-live .fusion-builder-all-modules li:hover .fusion-module-icon,
+.fusion-builder-live .fusion-builder-all-modules li:hover .fusion_module_title,
+.fusion-builder-live .fusion-builder-all-modules li:hover .fusion_module_title:before {
+  color: #198fd9;
+}
+.fusion-builder-live .fusion-builder-all-modules li .fusion-module-icon {
+  display: block;
+  width: auto;
+  height: auto;
+  font-size: 30px;
+  margin-bottom: 16px;
+  color: #93999f;
+  transition: all 0.3s ease;
+}
+.fusion-builder-live .fusion-builder-all-modules li .fusion_module_title {
+  color: #2a3035;
+  font-size: 14px;
+  font-weight: 400;
+  transition: all 0.1s ease;
+}
+.fusion-builder-live .fusion-builder-all-modules li .fusion_module_title:before {
+  transition: all 0.1s ease;
+}
+.fusion-builder-live .fusion-builder-all-modules li .fusion_module_label {
+  display: none;
+}
+.fusion-builder-live .fusion-builder-all-modules li .fusion_module_description {
+  display: none;
+}
+.fusion-builder-live .fusion-builder-all-modules li.fusion-builder-special-list li,
+.fusion-builder-live .fusion-builder-all-modules li.fusion-builder-library-list li {
+  width: 300px;
+  text-align: left;
+  min-height: 70px;
+  padding: 0 25px;
+  justify-content: left;
+  cursor: pointer;
+}
+.fusion-builder-live .fusion-builder-all-modules li.fusion-builder-special-list li .fusion_module_title:before,
+.fusion-builder-live .fusion-builder-all-modules li.fusion-builder-library-list li .fusion_module_title:before {
+  font-size: 25px;
+  right: 0;
+}
+.fusion-builder-live .fusion-builder-all-modules li.fusion-builder-special-list li .fusion_module_title .fusion-global-tooltip-wrapper,
+.fusion-builder-live .fusion-builder-all-modules li.fusion-builder-library-list li .fusion_module_title .fusion-global-tooltip-wrapper {
+  width: 25px;
+  height: 25px;
+  right: 0;
+}
+.fusion-builder-live .fusion-builder-all-modules .fusion-builder-element-generator,
+.fusion-builder-live .fusion-builder-all-modules .fusion-builder-disabled-element,
+.fusion-builder-live .fusion-builder-all-modules .fusion-builder-custom-tooltip-element {
+  position: relative;
+  border-color: #eee !important;
+  background-color: #fff !important;
+  box-shadow: none !important;
+  cursor: auto;
+}
+.fusion-builder-live .fusion-builder-all-modules .fusion-builder-element-generator .fusion_module_title,
+.fusion-builder-live .fusion-builder-all-modules .fusion-builder-disabled-element .fusion_module_title,
+.fusion-builder-live .fusion-builder-all-modules .fusion-builder-custom-tooltip-element .fusion_module_title {
+  opacity: 0.5;
+}
+.fusion-builder-live .fusion-builder-all-modules .fusion-builder-element-generator .fusion-tooltip,
+.fusion-builder-live .fusion-builder-all-modules .fusion-builder-disabled-element .fusion-tooltip,
+.fusion-builder-live .fusion-builder-all-modules .fusion-builder-custom-tooltip-element .fusion-tooltip {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  color: #999;
+  font-size: 14px;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: 200;
+  transition: opacity 0.2s ease 0.2;
+  text-align: center;
+}
+.fusion-builder-live .fusion-builder-all-modules .fusion-builder-element-generator:hover .fusion_module_title,
+.fusion-builder-live .fusion-builder-all-modules .fusion-builder-disabled-element:hover .fusion_module_title,
+.fusion-builder-live .fusion-builder-all-modules .fusion-builder-custom-tooltip-element:hover .fusion_module_title {
+  opacity: 0;
+  color: #999;
+}
+.fusion-builder-live .fusion-builder-all-modules .fusion-builder-element-generator:hover .fusion-module-icon,
+.fusion-builder-live .fusion-builder-all-modules .fusion-builder-disabled-element:hover .fusion-module-icon,
+.fusion-builder-live .fusion-builder-all-modules .fusion-builder-custom-tooltip-element:hover .fusion-module-icon {
+  color: #93999f;
+}
+.fusion-builder-live .fusion-builder-all-modules .fusion-builder-element-generator:hover .fusion-tooltip,
+.fusion-builder-live .fusion-builder-all-modules .fusion-builder-disabled-element:hover .fusion-tooltip,
+.fusion-builder-live .fusion-builder-all-modules .fusion-builder-custom-tooltip-element:hover .fusion-tooltip {
+  opacity: 1;
+}
+.fusion-builder-live .fusion-builder-all-modules .fusion-builder-custom-tooltip-element {
+  cursor: pointer;
+}
+.fusion-builder-live .fusion-builder-all-modules .fusion-builder-custom-tooltip-element .fusion_module_title {
+  opacity: 1;
+}
+.fusion-builder-live .fusion-builder-all-modules .fusion-builder-custom-tooltip-element:hover .fusion_module_title {
+  opacity: 0;
+  color: #999;
+}
+.fusion-builder-live .fusion-builder-all-modules .fusion-builder-custom-tooltip-element:hover .fusion-module-icon {
+  color: #93999f;
+}
+.fusion-builder-live .fusion-builder-all-modules .fusion-builder-custom-tooltip-element:hover .fusion-tooltip {
+  opacity: 1;
+}
+.fusion-builder-live .fusion-builder-all-modules.fusion-builder-library-list li {
+  border: 1px solid #ddd;
+  margin: 10px;
+  background-color: #fff;
+  text-align: left;
+  position: relative;
+  list-style-position: inside;
+  padding-left: 20px;
+  padding-right: 20px;
+  list-style-type: none;
+  cursor: pointer;
+  box-sizing: border-box;
+  display: flex;
+  border-radius: 4px;
+  width: calc((100% - 60px ) / 3);
+  height: 54px;
+  min-height: 54px !important;
+  max-height: 54px !important;
+  transition: border-color 0.1s ease;
+}
+.fusion-builder-live .fusion-builder-all-modules.fusion-builder-library-list li:hover {
+  border-color: #198fd9;
+}
+.fusion-builder-live .fusion-builder-all-modules.fusion-builder-library-list li:hover h4 .fusion-page-layout-title:before,
+.fusion-builder-live .fusion-builder-all-modules.fusion-builder-library-list li:hover h4 .fusion_module_title:before {
+  color: #198fd9;
+}
+.fusion-builder-live .fusion-builder-all-modules.fusion-builder-library-list li.fusion-global h4:before {
+  content: "\f0ac";
+  font-family: fusion-builder-icons;
+  font-size: 16px !important;
+  margin-right: 10px;
+  margin-left: 1px;
+  color: #93999f;
+  vertical-align: middle;
+}
+.fusion-builder-live .fusion-builder-all-modules.fusion-builder-library-list li h4 {
+  line-height: 16px;
+  color: #444 !important;
+}
+.fusion-builder-live .fusion-builder-sortable-children {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.fusion-builder-live .fusion-builder-sortable-children .ui-sortable-placeholder {
+  background: #f3f3f3 !important;
+  border: 1px dashed #ddd !important;
+  visibility: visible !important;
+  box-shadow: none;
+  padding-left: 0;
+  padding-right: 0;
+  animation: none;
+  display: block;
+  height: 38px;
+}
+.fusion-builder-live .fusion-builder-sortable-children .fusion-menu-item-handle,
+.fusion-builder-live .fusion-builder-sortable-children li {
+  border: 1px solid #e0e3e7;
+  box-sizing: border-box;
+  box-shadow: 0 0 0 1px 2px 0 rgba(22, 29, 37, 0.1);
+  width: 100%;
+  border-radius: 4px;
+  margin: 0 0 10px;
+  cursor: move;
+  background-color: #fff;
+  padding-left: 0;
+  line-height: 1.4;
+  margin-left: 0 !important;
+  text-align: right;
+  transition: box-shadow 100ms;
+}
+.fusion-builder-live .fusion-builder-sortable-children .fusion-menu-item-handle:hover,
+.fusion-builder-live .fusion-builder-sortable-children li:hover {
+  box-shadow: 0 1px 3px 0 rgba(22, 29, 37, 0.14);
+  color: #444;
+}
+.fusion-builder-live .fusion-builder-sortable-children .fusion-menu-item-handle .fusion-builder-controls,
+.fusion-builder-live .fusion-builder-sortable-children li .fusion-builder-controls {
+  display: inline-flex;
+  align-items: stretch;
+}
+.fusion-builder-live .fusion-builder-sortable-children .fusion-menu-item-handle .fusion-builder-controls a,
+.fusion-builder-live .fusion-builder-sortable-children li .fusion-builder-controls a {
+  padding: 0.9em;
+  display: block;
+  width: auto;
+  text-align: center;
+  text-decoration: none;
+  color: #93999f;
+  box-sizing: content-box;
+  transition: color 0.1s ease;
+}
+.fusion-builder-live .fusion-builder-sortable-children .fusion-menu-item-handle .fusion-builder-controls a:not(.fusion-builder-multi-setting-remove):hover,
+.fusion-builder-live .fusion-builder-sortable-children li .fusion-builder-controls a:not(.fusion-builder-multi-setting-remove):hover {
+  color: #198fd9;
+}
+.fusion-builder-live .fusion-builder-sortable-children .fusion-menu-item-handle .fusion-builder-controls a.fusion-builder-multi-setting-remove:hover,
+.fusion-builder-live .fusion-builder-sortable-children li .fusion-builder-controls a.fusion-builder-multi-setting-remove:hover {
+  color: #e0284f;
+}
+.fusion-builder-live .fusion-builder-sortable-children .fusion-menu-item-handle .multi-element-child-name,
+.fusion-builder-live .fusion-builder-sortable-children li .multi-element-child-name {
+  font-weight: 600;
+  padding: 0.7em 0.8em 0.7em 1em;
+  float: left;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  box-sizing: border-box;
+  font-family: "Noto Sans", Roboto, "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Oxygen-Sans", "Ubuntu", "Cantarell", "Helvetica Neue", sans-serif;
+}
+.fusion-builder-live .fusion-builder-sortable-children .fusion-menu-item-handle.ui-sortable-helper,
+.fusion-builder-live .fusion-builder-sortable-children li.ui-sortable-helper {
+  transition: none;
+}
+.fusion-builder-live .fusion-builder-sortable-children li {
+  display: flex;
+  justify-content: space-between;
+}
+.fusion-builder-live .fusion-builder-add-multi-child {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #198fd9;
+  padding: 8px 15px;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 3px;
+  font-family: "Noto Sans", Roboto, "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Oxygen-Sans", "Ubuntu", "Cantarell", "Helvetica Neue", sans-serif;
+  line-height: 26px;
+  clear: both;
+  margin-bottom: 20px;
+  margin-top: 30px;
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  transition: background-color 0.1s ease;
+}
+.fusion-builder-live .fusion-builder-add-multi-child span {
+  padding-right: 5px;
+}
+.fusion-builder-live .fusion-builder-add-multi-child:hover {
+  background-color: #1081c7;
+}
+.fusion-builder-live .fusion-builder-dialog .fusion-builder-main-settings .fusion-builder-all-elements-container {
+  padding: 0 5px;
+}
+.fusion-builder-live #fusion-builder-layouts-headers .fusion-builder-demo-header-button-load,
+.fusion-builder-live .fusion-builder-grid-layout .fusion-builder-demo-header-button-load {
+  display: block;
+}
+.fusion-builder-live #fusion-builder-layouts-headers .fusion-builder-demo-header-button-load:hover .fusion-layout-info,
+.fusion-builder-live .fusion-builder-grid-layout .fusion-builder-demo-header-button-load:hover .fusion-layout-info {
+  opacity: 1;
+}
+.fusion-builder-live #fusion-builder-layouts-headers .fusion-page-layout,
+.fusion-builder-live .fusion-builder-grid-layout .fusion-page-layout {
+  display: inline-block !important;
+  padding: 0 !important;
+  height: auto !important;
+  min-height: 0 !important;
+  max-height: none !important;
+  overflow: hidden;
+}
+.fusion-builder-live #fusion-builder-layouts-headers .fusion-page-layout .fusion-layout-info,
+.fusion-builder-live .fusion-builder-grid-layout .fusion-page-layout .fusion-layout-info {
+  display: flex;
+  padding-left: 1em;
+}
+.fusion-builder-live #fusion-builder-layouts-headers .fusion-page-layout .fusion-layout-info .fusion-layout-buttons,
+.fusion-builder-live .fusion-builder-grid-layout .fusion-page-layout .fusion-layout-info .fusion-layout-buttons {
+  position: static;
+}
+.fusion-builder-live #fusion-builder-layouts-headers .preview-image,
+.fusion-builder-live .fusion-builder-grid-layout .preview-image {
+  background-repeat: no-repeat;
+  padding-bottom: 19.35483871%;
+  width: 100%;
+  height: 0;
+  background-size: auto 100%;
+  position: relative;
+}
+.fusion-builder-live #fusion-builder-layouts-headers .preview-image .fusion-layout-info,
+.fusion-builder-live .fusion-builder-grid-layout .preview-image .fusion-layout-info {
+  background: rgba(255, 255, 255, 0.55);
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+.fusion-builder-grid-layout {
+  margin: 0 -20px;
+  padding: 0 20px;
+  background: #f2f3f5;
+}
+.fusion-builder-grid-layout ul {
+  list-style: none;
+  margin: 0;
+  padding: 20px 0;
+  column-count: 3;
+  column-gap: 20px;
+  width: 100%;
+  display: block;
+}
+.fusion-builder-grid-layout ul > li.fusion-page-layout {
+  background: #fff;
+  transition: border-color 0.3s cubic-bezier(0.42, 0.01, 0.58, 1), box-shadow 0.3s cubic-bezier(0.42, 0.01, 0.58, 1);
+  border-radius: 2px;
+  overflow: hidden;
+  border: 2px solid transparent;
+  text-align: center;
+  width: 100%;
+  margin: 0 0 20px 0;
+  display: inline-block;
+  cursor: pointer;
+  opacity: 1;
+}
+.fusion-builder-grid-layout ul > li.fusion-page-layout .fusion-builder-demo-layout-button-load {
+  text-decoration: none;
+  display: block;
+}
+.fusion-builder-grid-layout ul > li.fusion-page-layout .preview {
+  position: relative;
+  background: rgb(238 247 253);
+}
+.fusion-builder-grid-layout ul > li.fusion-page-layout:hover {
+  border-color: #198fd9;
+  box-shadow: 0 2px 10px rgba(24, 143, 218, 0.1), 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+.fusion-builder-grid-layout ul > li.fusion-page-layout img {
+  max-width: 100%;
+  height: auto;
+  will-change: transform;
+}
+.fusion-builder-grid-layout ul > li.fusion-page-layout .bar {
+  border-top: 1px solid #efefef;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: -0.01em;
+  color: #32373c;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media only screen and (min-width: 1900px) {
+  .fusion-builder-grid-layout .fusion-page-layouts {
+    column-count: 4;
+  }
+}
+@media only screen and (min-width: 2300px) {
+  .fusion-builder-grid-layout .fusion-page-layouts {
+    column-count: 5;
+  }
+}
+@media only screen and (min-width: 2700px) {
+  .fusion-builder-grid-layout .fusion-page-layouts {
+    column-count: 6;
+  }
+}
+@media only screen and (min-width: 3100px) {
+  .fusion-builder-grid-layout .fusion-page-layouts {
+    column-count: 7;
+  }
+}
+@media only screen and (max-width: 1100px) {
+  .fusion-builder-grid-layout .fusion-page-layouts {
+    column-count: 2;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .fusion-builder-grid-layout .fusion-page-layouts {
+    column-count: 1;
+  }
+}
+.fusion-builder-live .fusion-builder-column-layouts li {
+  max-width: 200px;
+  width: 100%;
+  border: 1px dashed #e0e3e7;
+  padding: 15px;
+  min-height: 20px;
+  display: block;
+}
+.fusion-builder-live .fusion-builder-column-layouts li .fusion-builder-column-previews {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.fusion-builder-live .fusion-builder-column-layouts li .fusion-builder-column-sizes {
+  padding-top: 12px;
+  font-size: 12px;
+  font-weight: 700;
+}
+.fusion-builder-live .fusion-builder-column-layouts li .fusion_builder_layout_column {
+  height: 18px;
+  text-align: center;
+  padding: 15% 0;
+  display: inline-block;
+  float: left;
+  background: #a9adb2;
+  color: #ddd;
+  margin-right: 4%;
+  font-size: 12px;
+  box-sizing: content-box;
+  line-height: 18px;
+  border-radius: 4px;
+  transition: background-color 0.1s ease;
+}
+.fusion-builder-live .fusion-builder-column-layouts li .fusion_builder_layout_column:last-child {
+  margin-right: 0;
+}
+.fusion-builder-live .fusion-builder-column-layouts li:hover {
+  border: 1px solid #198fd9;
+  color: #198fd9;
+}
+.fusion-builder-live .fusion-builder-column-layouts li:hover .fusion_builder_layout_column {
+  background: #198fd9;
+}
+.fusion-builder-live .fusion-builder-column-layouts .fusion-builder-empty-section {
+  font-size: 24px;
+  line-height: 30px;
+  top: 50%;
+  margin-top: -15px;
+  text-align: center;
+  display: block;
+  width: 100%;
+  position: absolute;
+  color: rgba(0, 0, 0, 0.4);
+}
+.fusion-builder-live .fusion-builder-column-layouts .fusion_builder_column_layout_1_1,
+.fusion-builder-live .fusion-builder-column-layouts .fusion_builder_column_layout_fullwidth {
+  width: 100%;
+}
+.fusion-builder-live .fusion-builder-column-layouts .fusion-builder-column-1_1,
+.fusion-builder-live .fusion-builder-column-layouts .fusion_builder_column_layout_1_1 {
+  width: 100%;
+  margin-left: 0;
+}
+.fusion-builder-live .fusion-builder-column-layouts .fusion-builder-column-1_6,
+.fusion-builder-live .fusion-builder-column-layouts .fusion_builder_column_layout_1_6 {
+  width: 13.3333%;
+}
+.fusion-builder-live .fusion-builder-column-layouts .fusion-builder-column-5_6,
+.fusion-builder-live .fusion-builder-column-layouts .fusion_builder_column_layout_5_6 {
+  width: 82.6666%;
+}
+.fusion-builder-live .fusion-builder-column-layouts .fusion-builder-column-1_5,
+.fusion-builder-live .fusion-builder-column-layouts .fusion_builder_column_layout_1_5 {
+  width: 16.8%;
+}
+.fusion-builder-live .fusion-builder-column-layouts .fusion-builder-column-2_5,
+.fusion-builder-live .fusion-builder-column-layouts .fusion_builder_column_layout_2_5 {
+  width: 37.6%;
+}
+.fusion-builder-live .fusion-builder-column-layouts .fusion-builder-column-3_5,
+.fusion-builder-live .fusion-builder-column-layouts .fusion_builder_column_layout_3_5 {
+  width: 58.4%;
+}
+.fusion-builder-live .fusion-builder-column-layouts .fusion-builder-column-4_5,
+.fusion-builder-live .fusion-builder-column-layouts .fusion_builder_column_layout_4_5 {
+  width: 79.2%;
+}
+.fusion-builder-live .fusion-builder-column-layouts .fusion-builder-column-1_4,
+.fusion-builder-live .fusion-builder-column-layouts .fusion_builder_column_layout_1_4 {
+  width: 22%;
+}
+.fusion-builder-live .fusion-builder-column-layouts .fusion-builder-column-3_4,
+.fusion-builder-live .fusion-builder-column-layouts .fusion_builder_column_layout_3_4 {
+  width: 74%;
+}
+.fusion-builder-live .fusion-builder-column-layouts .fusion-builder-column-1_3,
+.fusion-builder-live .fusion-builder-column-layouts .fusion_builder_column_layout_1_3 {
+  width: 30.6666%;
+}
+.fusion-builder-live .fusion-builder-column-layouts .fusion-builder-column-2_3,
+.fusion-builder-live .fusion-builder-column-layouts .fusion_builder_column_layout_2_3 {
+  width: 65.3333%;
+}
+.fusion-builder-live .fusion-builder-column-layouts .fusion-builder-column-1_2,
+.fusion-builder-live .fusion-builder-column-layouts .fusion_builder_column_layout_1_2 {
+  width: 48%;
+}
+.fusion-builder-live .fusion-builder-column-layouts .submit-columns {
+  float: right;
+  margin-left: 1em;
+}
+.fusion-builder-live .fusion-builder-column-layouts .column-bg-color {
+  position: absolute;
+  width: 0;
+  height: 0;
+  right: -1px;
+  bottom: -1px;
+  border-style: solid;
+  border-width: 0 0 16px 16px;
+}
+.fusion-builder-live [id$="fusion_shortcodes_text_mode"],
+.fusion-builder-live [id$="fusion_shortcodes_text_mode"]:hover {
+  padding: 5px 8px !important;
+  color: #65bc7b;
+}
+.fusion-builder-live .mce-btn[aria-label="Avada Builder Element Generator"] i:before {
+  content: "\e971";
+  font-family: "fusion-builder-icons";
+  font-size: 18px;
+  color: #65bc7b;
+}
+.fusion-builder-module-settings .fusion-multiple-image-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px -5px;
+}
+.fusion-builder-module-settings .fusion-multi-image {
+  align-items: center;
+  display: flex;
+  position: relative;
+  float: left;
+  margin: 5px;
+  padding: 5px;
+  border: 1px solid #ddd;
+  width: 100px;
+  height: 100px;
+}
+.fusion-builder-module-settings .fusion-multi-image img {
+  max-height: 100%;
+  max-width: 100%;
+}
+.fusion-builder-module-settings .fusion-multi-image-remove {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: #fff;
+  cursor: pointer;
+}
+.fusion-builder-main-settings .fusion-builder-chart-button {
+  display: inline-block;
+  background: #198fd9;
+  padding: 8px 15px;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 3px;
+  font-family: "Noto Sans", Roboto, "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Oxygen-Sans", "Ubuntu", "Cantarell", "Helvetica Neue", sans-serif;
+  line-height: 26px;
+  clear: both;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  transition: background-color 0.1s ease;
+}
+.fusion-builder-main-settings .fusion-builder-chart-button:hover {
+  background: #0e7abd;
+}
+.fusion-builder-main-settings .fusion-builder-chart-button.fusion-table-builder-add-column,
+.fusion-builder-main-settings .fusion-builder-chart-button.fusion-table-builder-add-row {
+  display: inline-block;
+  margin-top: 0;
+  margin-bottom: 0;
+  width: auto;
+}
+.fusion-builder-main-settings .fusion-builder-chart-button.fusion-table-builder-add-column {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.fusion-builder-main-settings .fusion-table-builder-chart {
+  /* Display color pickers based on selected chart type */
+  /* Styling */
+}
+.fusion-builder-main-settings .fusion-table-builder-chart#fusion-table-builder-chart-edit-table {
+  padding-bottom: 0;
+}
+.fusion-builder-main-settings .fusion-table-builder-chart#fusion-table-builder-chart-edit-table .fusion-builder-option {
+  border-bottom: none;
+}
+.fusion-builder-main-settings .fusion-table-builder-chart,
+.fusion-builder-main-settings .fusion-table-builder-chart input {
+  font-family: "Noto Sans", Roboto, "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Oxygen-Sans", "Ubuntu", "Cantarell", "Helvetica Neue", sans-serif;
+}
+.fusion-builder-main-settings .fusion-table-builder-chart .fusion-builder-layouts-header-info {
+  padding-top: 40px;
+  padding-bottom: 50px;
+  text-align: center;
+  border-bottom: 1px solid #f2f3f5;
+}
+.fusion-builder-main-settings .fusion-table-builder-chart .fusion-builder-layouts-header-info h2 {
+  display: inline-block;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.fusion-builder-main-settings .fusion-table-builder-chart .fusion-builder-layouts-header-info .fusion-builder-chart-button {
+  background-color: #198fd9;
+}
+.fusion-builder-main-settings .fusion-table-builder-chart .fusion-builder-layouts-header-info .fusion-builder-chart-button:hover {
+  background-color: #0e7abd;
+}
+.fusion-builder-main-settings .fusion-table-builder-chart .fusion-chart-bar {
+  padding-bottom: 40px;
+}
+.fusion-builder-main-settings .fusion-table-builder-chart .fusion-builder-table th {
+  font-weight: 400;
+}
+.fusion-builder-main-settings .fusion-table-builder-chart .fusion-builder-table .fusion-builder-option input {
+  margin-bottom: 0;
+}
+.fusion-builder-main-settings .fusion-table-builder-chart .fusion-builder-table.showX thead tr:nth-child(2),
+.fusion-builder-main-settings .fusion-table-builder-chart .fusion-builder-table.showX thead tr:nth-child(3),
+.fusion-builder-main-settings .fusion-table-builder-chart .fusion-builder-table.showX thead tr:nth-child(4) {
+  display: table-row;
+}
+.fusion-builder-main-settings .fusion-table-builder-chart .fusion-builder-table.showX .th-2,
+.fusion-builder-main-settings .fusion-table-builder-chart .fusion-builder-table.showX .th-3,
+.fusion-builder-main-settings .fusion-table-builder-chart .fusion-builder-table.showX .th-4,
+.fusion-builder-main-settings .fusion-table-builder-chart .fusion-builder-table.showX .td-2,
+.fusion-builder-main-settings .fusion-table-builder-chart .fusion-builder-table.showX .td-3,
+.fusion-builder-main-settings .fusion-table-builder-chart .fusion-builder-table.showX .td-4 {
+  display: none;
+}
+.fusion-builder-main-settings .fusion-table-builder-chart .fusion-builder-table.showY thead tr:nth-child(2),
+.fusion-builder-main-settings .fusion-table-builder-chart .fusion-builder-table.showY thead tr:nth-child(3),
+.fusion-builder-main-settings .fusion-table-builder-chart .fusion-builder-table.showY thead tr:nth-child(4) {
+  display: none;
+}
+.fusion-builder-main-settings .fusion-table-builder-chart .fusion-builder-table.showY .th-2,
+.fusion-builder-main-settings .fusion-table-builder-chart .fusion-builder-table.showY .th-3,
+.fusion-builder-main-settings .fusion-table-builder-chart .fusion-builder-table.showY .th-4,
+.fusion-builder-main-settings .fusion-table-builder-chart .fusion-builder-table.showY .td-2,
+.fusion-builder-main-settings .fusion-table-builder-chart .fusion-builder-table.showY .td-3,
+.fusion-builder-main-settings .fusion-table-builder-chart .fusion-builder-table.showY .td-4 {
+  display: table-cell;
+}
+.fusion-builder-main-settings .fusion-table-builder-chart.fusion-table-builder {
+  /* Color picker */
+}
+.fusion-builder-main-settings .fusion-table-builder-chart.fusion-table-builder .fusion-builder-table-wrap {
+  margin-top: 70px;
+  padding-left: 40px;
+}
+.fusion-builder-main-settings .fusion-table-builder-chart.fusion-table-builder .fusion-builder-table {
+  margin-right: auto;
+  margin-left: auto;
+  border-collapse: collapse;
+  border-spacing: 0;
+  border-bottom: 1px solid #f2f3f5;
+}
+.fusion-builder-main-settings .fusion-table-builder-chart.fusion-table-builder .fusion-builder-table th,
+.fusion-builder-main-settings .fusion-table-builder-chart.fusion-table-builder .fusion-builder-table td {
+  border-top: 1px solid #f2f3f5;
+  border-right: 1px solid #f2f3f5;
+}
+.fusion-builder-main-settings .fusion-table-builder-chart.fusion-table-builder .fusion-builder-table tr:first-child .th-1 {
+  border-top: none;
+}
+.fusion-builder-main-settings .fusion-table-builder-chart.fusion-table-builder .fusion-builder-table tr:nth-child(2) .th-1,
+.fusion-builder-main-settings .fusion-table-builder-chart.fusion-table-builder .fusion-builder-table tbody {
+  border-left: 1px solid #f2f3f5;
+}
+.fusion-builder-main-settings .fusion-table-builder-chart.fusion-table-builder .fusion-builder-table input {
+  text-align: center;
+  border: none;
+  box-shadow: none;
+}
+.fusion-builder-main-settings .fusion-table-builder-chart.fusion-table-builder .fusion-builder-option.colorpickeralpha {
+  position: relative;
+  display: inline-block;
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-top: 3px;
+}
+.fusion-builder-main-settings .fusion-table-builder-chart.fusion-table-builder .fusion-builder-option.colorpickeralpha.fusion-color-picker-opened {
+  overflow: visible;
+}
+.fusion-builder-main-settings .fusion-table-builder-chart.fusion-table-builder .fusion-builder-option.colorpickeralpha.fusion-color-picker-opened .fusion-builder-option-container {
+  display: block;
+}
+.fusion-builder-main-settings .fusion-table-builder-chart.fusion-table-builder .fusion-builder-option.colorpickeralpha.fusion-color-picker-opened.fusion-color-picker-flip .fusion-builder-option-container {
+  right: -10px;
+  left: auto;
+}
+.fusion-builder-main-settings .fusion-table-builder-chart.fusion-table-builder .fusion-builder-option.colorpickeralpha .wp-picker-holder {
+  clear: both;
+}
+.fusion-builder-main-settings .fusion-table-builder-chart.fusion-table-builder .fusion-builder-option.colorpickeralpha .option-field .iris-square,
+.fusion-builder-main-settings .fusion-table-builder-chart.fusion-table-builder .fusion-builder-option.colorpickeralpha .option-field .iris-strip {
+  height: 140px !important;
+}
+.fusion-builder-main-settings .fusion-table-builder-chart.fusion-table-builder .fusion-builder-option.colorpickeralpha .wp-picker-container .iris-picker {
+  margin-top: 0;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+  border-top: 1px solid #f2f3f5;
+  width: 300px !important;
+  height: 170px !important;
+  box-shadow: none;
+}
+.fusion-builder-main-settings .fusion-table-builder-chart.fusion-table-builder .fusion-builder-option.colorpickeralpha input.button.button-small.wp-picker-clear,
+.fusion-builder-main-settings .fusion-table-builder-chart.fusion-table-builder .fusion-builder-option.colorpickeralpha .wp-color-result {
+  display: none;
+}
+.fusion-builder-main-settings .fusion-table-builder-chart.fusion-table-builder .fusion-builder-option.colorpickeralpha .wp-picker-input-wrap {
+  display: block !important;
+  width: 100% !important;
+  float: left;
+  position: relative;
+  margin-left: 0;
+}
+.fusion-builder-main-settings .fusion-table-builder-chart.fusion-table-builder .fusion-builder-option-container {
+  position: absolute;
+  top: 30px;
+  left: -10px;
+  background: #fff;
+  z-index: 2;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.3);
+  width: 300px;
+  border-radius: 5px;
+  display: none;
+}
+.fusion-builder-main-settings .fusion-table-builder-chart.fusion-table-builder .fusion-builder-option-container .fusion-builder-colorpicker-title {
+  display: block;
+  padding-left: 12px;
+  height: 37px;
+  line-height: 37px;
+  font-size: 11px;
+  color: #93999f;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-align: left;
+  text-transform: uppercase;
+  background-color: #f2f3f5;
+}
+.fusion-builder-main-settings .fusion-table-builder-chart.fusion-table-builder .fusion-builder-open-colorpicker {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  padding: 6px 5px 6px 7px;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  background-size: 40%;
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAAHnlligAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAHJJREFUeNpi+P///4EDBxiAGMgCCCAGFB5AADGCRBgYDh48CCRZIJS9vT2QBAggFBkmBiSAogxFBiCAoHogAKIKAlBUYTELAiAmEtABEECk20G6BOmuIl0CIMBQ/IEMkO0myiSSraaaBhZcbkUOs0HuBwDplz5uFJ3Z4gAAAABJRU5ErkJggg==");
+  text-decoration: none;
+  text-align: center;
+  color: #fff;
+  font-size: 0.8em;
+  position: relative;
+}
+.fusion-builder-main-settings .fusion-table-builder-chart.fusion-table-builder .fusion-builder-open-colorpicker:before {
+  content: "";
+  display: block;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  background-color: inherit;
+  top: -1px;
+  left: -1px;
+  z-index: 1;
+  border-radius: 50%;
+  border: 1px solid #efefef;
+}
+.fusion-builder-main-settings .fusion-table-builder-chart.fusion-table-builder .fusion-builder-open-colorpicker span {
+  position: relative;
+  opacity: 0;
+  transition: opacity 0.1s ease;
+  pointer-events: none;
+  display: block;
+}
+.fusion-builder-main-settings .fusion-table-builder-chart.fusion-table-builder .fusion-builder-open-colorpicker span:before {
+  content: attr(aria-label);
+  top: -30px;
+  background: #1d2226;
+  color: #fff;
+  border: 1px solid #1d2226;
+  white-space: nowrap;
+  padding: 10px;
+  font-size: 11px;
+  font-family: "Noto Sans", Roboto, "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Oxygen-Sans", "Ubuntu", "Cantarell", "Helvetica Neue", sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  border-radius: 4px;
+  margin: 0;
+  z-index: 200;
+  transition: all 0.2s ease 0.2s;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+}
+.fusion-builder-main-settings .fusion-table-builder-chart.fusion-table-builder .fusion-builder-open-colorpicker span:after {
+  content: "";
+  border: 5px solid transparent;
+  border-top-color: #1d2226;
+  top: 2px;
+  z-index: 2;
+  transition: all 0.2s ease 0.2s;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+}
+.fusion-builder-main-settings .fusion-table-builder-chart.fusion-table-builder .fusion-builder-open-colorpicker:hover span {
+  opacity: 1;
+  z-index: 2;
+}
+.fusion-builder-main-settings .fusion-table-builder-chart.fusion-table-builder .fusion-builder-open-colorpicker:hover span:before {
+  opacity: 1;
+  top: -50px;
+  transition: all 0.2s ease 0.2s;
+}
+.fusion-builder-main-settings .fusion-table-builder-chart.fusion-table-builder .fusion-builder-open-colorpicker:hover span:after {
+  top: -17px;
+  opacity: 1;
+  transition: all 0.2s ease 0.2s;
+}
+.fusion-builder-main-settings .fusion-table-builder-chart.fusion-table-builder .fusion-color-picker-opened .fusion-builder-open-colorpicker span {
+  opacity: 1;
+  z-index: 2;
+}
+.fusion-builder-main-settings .fusion-table-builder-chart.fusion-table-builder .fusion-colorpicker-icon {
+  border-radius: 0;
+  position: absolute;
+  top: 37px;
+  right: 0;
+}
+.fusion-builder-main-settings .fusion-table-builder-chart.fusion-table-builder input.fusion-builder-color-picker-hex,
+.fusion-builder-main-settings .fusion-table-builder-chart.fusion-table-builder input.color-picker-placeholder {
+  border: none;
+  height: 40px;
+  border-radius: 5px;
+  text-align: left;
+}
+.fusion-builder-main-settings .fusion-table-builder-chart.fusion-table-builder .fusion-builder-table > thead > tr > th,
+.fusion-builder-main-settings .fusion-table-builder-chart.fusion-table-builder .fusion-builder-table > tbody > tr > td {
+  vertical-align: middle;
+  text-align: center;
+  padding: 0;
+  position: relative;
+}
+.fusion-builder-main-settings .fusion-table-builder-chart.fusion-table-builder .fusion-builder-table > thead > tr:first-child > th {
+  height: 50px;
+  font-weight: 400;
+}
+.fusion-builder-main-settings .fusion-table-builder-chart.fusion-table-builder .fusion-builder-table > thead > tr > th:first-child {
+  height: 35px;
+}
+.fusion-builder-main-settings .fusion-table-builder-chart.fusion-table-builder .fusion-builder-table > thead > tr:first-child > .th-2,
+.fusion-builder-main-settings .fusion-table-builder-chart.fusion-table-builder .fusion-builder-table > thead > tr:nth-child(2) > th:first-child {
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #93999f;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+.fusion-builder-main-settings .fusion-table-builder-chart.fusion-table-builder .fusion-builder-table > thead > tr:first-child > th.th-2,
+.fusion-builder-main-settings .fusion-table-builder-chart.fusion-table-builder .fusion-builder-table > thead > tr:first-child > th.th-3,
+.fusion-builder-main-settings .fusion-table-builder-chart.fusion-table-builder .fusion-builder-table > thead > tr:first-child > th.th-4 {
+  min-width: 110px;
+  padding-left: 5px !important;
+  padding-right: 5px !important;
+}
+.fusion-builder-main-settings .fusion-table-builder-chart.fusion-table-builder .fusion-builder-table > thead > tr:first-child > th input {
+  height: 48px;
+}
+.fusion-builder-main-settings .fusion-table-builder-chart.fusion-table-builder .fusion-builder-table > thead > tr:first-child > th.th-1 > div,
+.fusion-builder-main-settings .fusion-table-builder-chart.fusion-table-builder .fusion-builder-table > thead > tr:first-child > th.th-1 > div.option-field {
+  clear: both;
+}
+.fusion-builder-main-settings .fusion-table-builder-chart.fusion-table-builder .fusion-builder-table > thead > tr:first-child > th.th-1 div.option-field .wp-picker-active {
+  float: left;
+}
+.fusion-builder-main-settings .fusion-table-builder-chart.fusion-table-builder .fusion-builder-table > thead > tr:first-child > th.th-1 input {
+  padding: 5px;
+  width: 50px;
+  height: 30px;
+  border: 1px solid #e9e8e7;
+  background-color: #f4f3f3;
+}
+.fusion-builder-main-settings .fusion-table-builder-chart.fusion-table-builder .fusion-builder-table > thead > tr:first-child > th.th-1 input,
+.fusion-builder-main-settings .fusion-table-builder-chart.fusion-table-builder .fusion-builder-table > thead > tr:first-child > th.th-1 strong {
+  display: inline-block;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+.fusion-builder-main-settings .fusion-table-builder-chart.fusion-table-builder input {
+  height: 47px;
+}
+.fusion-builder-main-settings .fusion-table-builder-chart .fusion-builder-table-column-options {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  width: 100%;
+  padding: 6px 0;
+  text-align: center;
+  font-size: 16px;
+}
+.fusion-builder-main-settings .fusion-table-builder-chart .fusion-builder-table-column-options .fusion-builder-table-delete-column {
+  cursor: pointer;
+}
+.fusion-builder-main-settings .fusion-table-builder-chart .fusion-builder-table-delete-row {
+  display: block;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: -33px;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+.fusion-builder-main-settings .fusion-table-builder-chart .fusion-builder-table-delete-row,
+.fusion-builder-main-settings .fusion-table-builder-chart .fusion-builder-table-delete-column {
+  transition: color 0.1s ease;
+}
+.fusion-builder-main-settings .fusion-table-builder-chart .fusion-builder-table-delete-row:hover,
+.fusion-builder-main-settings .fusion-table-builder-chart .fusion-builder-table-delete-column:hover {
+  color: #e0284f;
+}
+.fusion-builder-main-settings .fusion-table-builder-chart .option-field .fusion-colorpicker-container .wp-picker-input-wrap .wp-picker-clear {
+  position: absolute;
+  top: 4px;
+  right: 6px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #9ea0a5;
+  font-size: 11px;
+  height: 28px;
+  line-height: 28px;
+  border-radius: 4px;
+  background: #f2f2f4;
+  display: block;
+}
+.fusion-builder-main-settings .fusion-table-builder-chart .fusion-builder-option .fusion-builder-option-container .fusion-colorpicker-container .fusion-colorpicker-icon {
+  border-radius: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: auto;
+  box-shadow: rgba(0, 0, 0, 0.14) 1px 1px 4px 1px;
+  color: #ffffff;
+  background: #198fd9;
+}
+.fusion-builder-main-settings .rtl .fusion-table-builder-chart.fusion-table-builder .fusion-builder-table {
+  margin-left: 0;
+  margin-right: 20px;
+}
+.fusion-builder-main-settings .rtl .fusion-table-builder-chart .fusion-builder-table-delete-row {
+  left: auto;
+  right: -35px;
+}
+.fusion-builder-option .fusion-dynamic-selection {
+  display: none;
+}
+.fusion-builder-option .fusion-dynamic-content {
+  display: none;
+}
+.fusion-builder-option .fusion-dynamic-content .fusion-builder-option {
+  width: 100%;
+}
+.fusion-builder-option .fusion-dynamic-content .dynamic-wrapper {
+  padding: 0;
+  border: 1px solid #e2e2e2;
+  border-radius: 4px !important;
+  box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.06);
+  background: #fff;
+  transition: 0.2s all;
+}
+.fusion-builder-option .fusion-dynamic-content .dynamic-wrapper:hover {
+  box-shadow: 0 1px 4px 2px rgba(0, 0, 0, 0.08);
+  transition: 0.2s all;
+}
+.fusion-builder-option .fusion-dynamic-content .dynamic-wrapper .dynamic-title {
+  margin: 0;
+  padding: 10px;
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.fusion-builder-option .fusion-dynamic-content .dynamic-wrapper .dynamic-title h3 {
+  display: inline-block;
+  margin: 0 !important;
+  text-transform: capitalize;
+}
+.fusion-builder-option .fusion-dynamic-content .dynamic-wrapper .dynamic-title .dynamic-remove,
+.fusion-builder-option .fusion-dynamic-content .dynamic-wrapper .dynamic-title .dynamic-toggle-icon {
+  cursor: pointer;
+  font-size: 14px;
+  color: #93999f;
+  max-width: 20px;
+  width: 100%;
+  text-align: center;
+}
+.fusion-builder-option .fusion-dynamic-content .dynamic-wrapper .dynamic-title .dynamic-remove:hover,
+.fusion-builder-option .fusion-dynamic-content .dynamic-wrapper .dynamic-title .dynamic-toggle-icon:hover {
+  color: #198fd9;
+}
+.fusion-builder-option .fusion-dynamic-content .dynamic-wrapper .dynamic-title .dynamic-remove.fusiona-trash-o:hover {
+  color: #e54c6d;
+}
+.fusion-builder-option .fusion-dynamic-content .dynamic-wrapper .dynamic-title .dynamic-remove.fusiona-close-fb {
+  font-size: 11px;
+}
+.fusion-builder-option .fusion-dynamic-content .dynamic-wrapper .dynamic-title .dynamic-remove.fusiona-close-fb:hover {
+  color: #198fd9;
+}
+.fusion-builder-option .fusion-dynamic-content .dynamic-wrapper .dynamic-param-fields {
+  padding: 30px 20px;
+  padding-top: 0;
+  margin: 0;
+  list-style: none;
+  display: none;
+  background: #f2f3f5;
+  border-top: 1px solid #e0e3e7;
+}
+.fusion-builder-option .fusion-dynamic-content .dynamic-wrapper .dynamic-param-fields .fusion-form-radio-button-set.ui-buttonset a.ui-button:not(.ui-state-active) {
+  background-color: #fff;
+}
+.fusion-builder-option .fusion-dynamic-content .dynamic-wrapper .dynamic-param-fields > li {
+  margin: 26px 0 0 0;
+}
+.fusion-builder-option .fusion-dynamic-content .dynamic-wrapper .dynamic-param-fields > li .option-field input {
+  margin: 0;
+}
+.fusion-builder-option .fusion-dynamic-content .dynamic-wrapper .dynamic-param-fields > li .option-details h3 {
+  margin: 0 0 12px 0;
+  line-height: 1;
+}
+.fusion-builder-option .fusion-dynamic-content .dynamic-wrapper .dynamic-param-fields > li .option-details .description {
+  font-size: 12px;
+  color: #93999f;
+  margin: 0 0 12px 0;
+  display: block;
+}
+.fusion-builder-option .fusion-dynamic-content .dynamic-wrapper .dynamic-param-fields > li .fusion-builder-option .select2-container .select2-selection {
+  box-shadow: 0 0 1px rgba(102, 113, 123, 0.26);
+}
+.fusion-builder-option[data-dynamic="true"] .fusion-dynamic-content {
+  display: block;
+}
+.fusion-builder-option[data-dynamic="true"] > .option-field.fusion-builder-option-container {
+  display: none;
+}
+.fusion-builder-option[data-dynamic-selection="true"] .fusiona-dynamic-data::before {
+  content: "\e904";
+}
+.fusion-builder-option[data-dynamic-selection="true"] > .option-field.fusion-builder-option-container,
+.fusion-builder-option[data-dynamic-selection="true"] .fusion-dynamic-content {
+  display: none;
+}
+.fusion-builder-option[data-dynamic-selection="true"] .fusion-dynamic-selection {
+  display: block;
+}
+.fusion-builder-main-settings .fusion-widget-settings-form {
+  /** wp editor **/
+  /** text field **/
+  /** select field **/
+  /** label **/
+}
+.fusion-builder-main-settings .fusion-widget-settings-form .widget-inside {
+  margin: -24px -20px;
+}
+.fusion-builder-main-settings .fusion-widget-settings-form .widget-inside .form {
+  margin-bottom: 0;
+}
+.fusion-builder-main-settings .fusion-widget-settings-form .widget-inside .form .text-widget-fields .tribe > p,
+.fusion-builder-main-settings .fusion-widget-settings-form .widget-inside .form .custom-html-widget-fields .tribe > p,
+.fusion-builder-main-settings .fusion-widget-settings-form .widget-inside .form .media-widget-control .tribe > p,
+.fusion-builder-main-settings .fusion-widget-settings-form .widget-inside .form .widget-content .tribe > p,
+.fusion-builder-main-settings .fusion-widget-settings-form .widget-inside .form .text-widget-fields > div:not(.tribe),
+.fusion-builder-main-settings .fusion-widget-settings-form .widget-inside .form .custom-html-widget-fields > div:not(.tribe),
+.fusion-builder-main-settings .fusion-widget-settings-form .widget-inside .form .media-widget-control > div:not(.tribe),
+.fusion-builder-main-settings .fusion-widget-settings-form .widget-inside .form .widget-content > div:not(.tribe),
+.fusion-builder-main-settings .fusion-widget-settings-form .widget-inside .form .text-widget-fields > p,
+.fusion-builder-main-settings .fusion-widget-settings-form .widget-inside .form .custom-html-widget-fields > p,
+.fusion-builder-main-settings .fusion-widget-settings-form .widget-inside .form .media-widget-control > p,
+.fusion-builder-main-settings .fusion-widget-settings-form .widget-inside .form .widget-content > p {
+  margin: 0;
+  padding: 24px 20px;
+  border-top: 1px solid #f2f3f5;
+}
+.fusion-builder-main-settings .fusion-widget-settings-form .widget-inside .form .text-widget-fields .tribe > p:first-child,
+.fusion-builder-main-settings .fusion-widget-settings-form .widget-inside .form .custom-html-widget-fields .tribe > p:first-child,
+.fusion-builder-main-settings .fusion-widget-settings-form .widget-inside .form .media-widget-control .tribe > p:first-child,
+.fusion-builder-main-settings .fusion-widget-settings-form .widget-inside .form .widget-content .tribe > p:first-child,
+.fusion-builder-main-settings .fusion-widget-settings-form .widget-inside .form .text-widget-fields > div:not(.tribe):first-child,
+.fusion-builder-main-settings .fusion-widget-settings-form .widget-inside .form .custom-html-widget-fields > div:not(.tribe):first-child,
+.fusion-builder-main-settings .fusion-widget-settings-form .widget-inside .form .media-widget-control > div:not(.tribe):first-child,
+.fusion-builder-main-settings .fusion-widget-settings-form .widget-inside .form .widget-content > div:not(.tribe):first-child,
+.fusion-builder-main-settings .fusion-widget-settings-form .widget-inside .form .text-widget-fields > p:first-child,
+.fusion-builder-main-settings .fusion-widget-settings-form .widget-inside .form .custom-html-widget-fields > p:first-child,
+.fusion-builder-main-settings .fusion-widget-settings-form .widget-inside .form .media-widget-control > p:first-child,
+.fusion-builder-main-settings .fusion-widget-settings-form .widget-inside .form .widget-content > p:first-child {
+  border-top: none;
+}
+.fusion-builder-main-settings .fusion-widget-settings-form .wp-editor-wrap .wp-editor-tools .wp-media-buttons .add_media {
+  background: #fff;
+  border: 1px solid #f2f3f5;
+  padding: 6px;
+  height: auto;
+  line-height: normal;
+  font-weight: 600;
+  box-shadow: 0 1px 1px rgba(102, 113, 123, 0.08);
+}
+.fusion-builder-main-settings .fusion-widget-settings-form .wp-editor-wrap .wp-editor-tools .wp-media-buttons .add_media .wp-media-buttons-icon {
+  color: #198fd9;
+  margin: 0 3px;
+}
+.fusion-builder-main-settings .fusion-widget-settings-form .wp-editor-wrap .wp-editor-tools .wp-media-buttons .add_media .wp-media-buttons-icon:before {
+  content: "\f03e";
+  font-family: "Font Awesome 5 Free";
+}
+.fusion-builder-main-settings .fusion-widget-settings-form .wp-editor-wrap .wp-editor-tools .wp-editor-tabs .wp-switch-editor {
+  background: #fff;
+  padding: 6px 15px;
+  border-radius: 4px 4px 0 0;
+  border-bottom: 0;
+}
+.fusion-builder-main-settings .fusion-widget-settings-form .wp-editor-wrap.html-active .wp-editor-tabs .switch-html {
+  background: #f2f3f5;
+}
+.fusion-builder-main-settings .fusion-widget-settings-form .wp-editor-wrap.tmce-active .wp-editor-tabs .switch-tmce {
+  background: #f2f3f5;
+}
+.fusion-builder-main-settings .fusion-widget-settings-form .wp-editor-wrap .wp-editor-container {
+  border: 1px solid #f5f5f5;
+}
+.fusion-builder-main-settings .fusion-widget-settings-form .wp-editor-wrap .wp-editor-container .mce-container-body .mce-container:before {
+  box-shadow: none;
+}
+.fusion-builder-main-settings .fusion-widget-settings-form .wp-editor-wrap .wp-editor-container .mce-container-body .mce-container .mce-container-body .mce-container {
+  border-bottom: none;
+  background: #f2f3f5;
+}
+.fusion-builder-main-settings .fusion-widget-settings-form .wp-editor-wrap .wp-editor-container .mce-container-body .mce-container .mce-container-body .mce-container .mce-widget.mce-listbox {
+  background: transparent;
+  border: none;
+}
+.fusion-builder-main-settings .fusion-widget-settings-form .wp-editor-wrap .wp-editor-container .mce-container-body .mce-container .mce-container-body .mce-container .mce-widget.mce-listbox button {
+  color: #2a3035;
+  border: 1px solid #e0e3e7;
+  border-radius: 4px !important;
+  box-shadow: 0 1px 1px rgba(102, 113, 123, 0.08);
+  background: #fff;
+  position: relative;
+  padding: 4px 8px;
+}
+.fusion-builder-main-settings .fusion-widget-settings-form .wp-editor-wrap .wp-editor-container .mce-container-body .mce-container .mce-container-body .mce-container .mce-widget:not(.mce-listbox) {
+  border-radius: 4px;
+  width: 28px;
+  height: 28px;
+  border: none;
+}
+.fusion-builder-main-settings .fusion-widget-settings-form .wp-editor-wrap .wp-editor-container .mce-container-body .mce-container .mce-container-body .mce-container .mce-widget:not(.mce-listbox) button {
+  width: 100%;
+  height: 100%;
+}
+.fusion-builder-main-settings .fusion-widget-settings-form .wp-editor-wrap .wp-editor-container .mce-container-body .mce-container .mce-container-body .mce-container .mce-widget:not(.mce-listbox):hover {
+  background: #fff;
+  box-shadow: none;
+}
+.fusion-builder-main-settings .fusion-widget-settings-form .wp-editor-wrap .wp-editor-container .mce-container-body .mce-container .mce-container-body .mce-container .mce-widget.mce-splitbtn {
+  width: 43px;
+}
+.fusion-builder-main-settings .fusion-widget-settings-form .wp-editor-wrap .wp-editor-container .mce-container-body .mce-container .mce-container-body .mce-container .mce-widget.mce-splitbtn button {
+  width: 28px;
+}
+.fusion-builder-main-settings .fusion-widget-settings-form .wp-editor-wrap .wp-editor-container .mce-container-body .mce-container .mce-container-body .mce-container .mce-widget.mce-splitbtn .mce-open {
+  width: 15px;
+  padding: 0;
+}
+.fusion-builder-main-settings .fusion-widget-settings-form .wp-editor-wrap .wp-editor-container .mce-container-body .mce-container .mce-container-body .mce-container .mce-widget.mce-splitbtn .mce-open .mce-caret {
+  margin: 2px 1px 0 1px;
+}
+.fusion-builder-main-settings .fusion-widget-settings-form .wp-editor-wrap .wp-editor-container .mce-container-body .mce-container .mce-container-body .mce-container .mce-widget.mce-splitbtn:hover .mce-open {
+  border-left-color: #f2f3f5;
+}
+.fusion-builder-main-settings .fusion-widget-settings-form .wp-editor-wrap .wp-editor-container .mce-container-body .mce-container .mce-container-body .mce-container .mce-widget.mce-active {
+  background: #198fd9 !important;
+  color: #fff;
+}
+.fusion-builder-main-settings .fusion-widget-settings-form input[type="text"] {
+  height: 40px;
+  padding: 0 12px;
+  border: 1px solid #e0e3e7;
+  border-radius: 4px;
+  font-size: 13px;
+  font-weight: 400;
+  color: #2a3035;
+  background: #fff;
+  outline: 0;
+  width: 100%;
+  font-family: "Noto Sans", Roboto, "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Oxygen-Sans", "Ubuntu", "Cantarell", "Helvetica Neue", sans-serif;
+  transition: border-color 0.1s ease;
+}
+.fusion-builder-main-settings .fusion-widget-settings-form input[type="text"]:focus,
+.fusion-builder-main-settings .fusion-widget-settings-form input[type="text"]:hover {
+  border-color: #198fd9;
+}
+.fusion-builder-main-settings .fusion-widget-settings-form input[type="text"]::placeholder {
+  color: #93999f;
+}
+.fusion-builder-main-settings .fusion-widget-settings-form select {
+  border: 1px solid #ededed;
+  box-shadow: 0 1px 1px rgba(102, 113, 123, 0.08);
+  cursor: pointer;
+  width: 100%;
+  max-width: 100%;
+  padding-left: 12px;
+  padding-right: 12px;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 40px;
+  color: #2a3035;
+  border-radius: 4px;
+  min-height: 40px;
+  position: relative;
+  transition: all 0.1s ease;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  outline: none;
+  background: #fff url("data:image/svg+xml,%3Csvg width='9' height='5' viewBox='0 0 9 5' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1.87498 0.399963L4.49998 3.02496L7.12498 0.399963L8.17498 0.924964L4.49998 4.59996L0.824982 0.924964L1.87498 0.399963Z' fill='%2393999F'/%3E%3C/svg%3E%0A") no-repeat right 12px top 50%;
+}
+.fusion-builder-main-settings .fusion-widget-settings-form label {
+  font-size: 14px;
+  line-height: 18px;
+  margin: 0 0 12px;
+  color: #2a3035;
+  font-weight: bold;
+  display: block;
+}
+#fusion-visibility-large {
+  width: 60px;
+  text-align: center;
+  padding: 8px 5px;
+  border: 1px solid #e0e3e7;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #2a3035;
+  background: #fff;
+  outline: 0;
+  box-shadow: inset 0 0 1px rgba(102, 113, 123, 0.16);
+  cursor: not-allowed;
+}
+li[data-direction="row"] + li .fusion-form-radio-button-set a > span {
+  transform: rotate(-90deg);
+}
+.fusion-mapping > span {
+  display: none;
+}
+.fusion-mapping > span:first-child:last-child {
+  display: block;
+}
+.fusion-mapping > div {
+  margin: 10px 0 20px 0;
+}
+.fusion-mapping > div .fusion-select-wrapper {
+  position: relative;
+}
+.fusion-mapping > div .fusion-select-wrapper:hover .fusiona-arrow-down {
+  color: #2a3035;
+}
+.fusion-mapping > div .fusion-select-wrapper .fusiona-arrow-down {
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 12px;
+  transform: translateY(-50%);
+  pointer-events: none;
+  font-size: 14px;
+  line-height: 1;
+  color: #93999f;
+}
+.fusion-mapping > div label {
+  margin-bottom: 3px;
+  display: block;
+}
+.fusion-mapping > div select {
+  border: 1px solid #ededed;
+  box-shadow: 0 1px 1px rgba(102, 113, 123, 0.08);
+  cursor: pointer;
+  width: 100%;
+  max-width: 100%;
+  padding-left: 12px;
+  padding-right: 12px;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 40px;
+  color: #2a3035;
+  border-radius: 4px;
+  min-height: 40px;
+  background: #fff;
+  position: relative;
+  transition: all 0.1s ease;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  outline: 0;
+}
+.post-card-editing [data-element="fusion_builder_column"] [data-option-id="align_self"],
+.post-card-editing [data-element="fusion_builder_column"] [data-option-id="hide_on_mobile"],
+.post-card-editing [data-element="fusion_builder_column"] [data-option-type="column_width"],
+.post-card-editing [data-element="fusion_builder_column"] [data-option-id="dimension_spacing"],
+.post-card-editing [data-element="fusion_builder_column"] [data-option-id="dimension_spacing_small"],
+.post-card-editing [data-element="fusion_builder_column"] [data-option-id="dimension_spacing_medium"],
+.post-card-editing [data-element="fusion_builder_column"] [data-option-id="order_small"],
+.post-card-editing [data-element="fusion_builder_column"] [data-option-id="order_medium"],
+.post-card-editing [data-element="fusion_builder_column"] [data-option-id="dimension_margin"],
+.post-card-editing [data-element="fusion_builder_column"] [data-option-id="dimension_margin_small"],
+.post-card-editing [data-element="fusion_builder_column"] [data-option-id="dimension_margin_medium"],
+.post-card-editing [data-element="fusion_builder_column"] [data-option-id="render_logics"] {
+  display: none !important;
+}

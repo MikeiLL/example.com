@@ -1,0 +1,257 @@
+# Copyright (C) 2019 WPForms Stripe
+# This file is distributed under the same license as the WPForms Stripe package.
+msgid ""
+msgstr ""
+"Project-Id-Version: WPForms Stripe\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: WPForms <support@wpforms.com>\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;"
+"_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;"
+"esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n==0 || n==1);\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"X-Generator: Poedit 2.2\n"
+"Last-Translator: \n"
+"Language: hi\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#. translators: %s - WPForms.com documentation page URL.
+#: wpforms-stripe.php:62
+msgid ""
+"The WPForms Stripe plugin has been deactivated. Your site is running an "
+"outdated version of PHP that is no longer supported and is not compatible "
+"with the Stripe addon. <a href=\"%s\" target=\"_blank\" rel=\"noopener "
+"noreferrer\">Read more</a> for additional information."
+msgstr ""
+"WPForms Stripe प्लगइन को निष्क्रिय कर दिया गया है। आपकी साइट PHP का पुराना संस्करण "
+"चला रही है जो अब समर्थित नहीं है और स्ट्राइप ऐडऑन के साथ संगत नहीं है। अतिरिक्त जानकारी "
+"के लिए <a href=“%s” target=\"_blank\" rel=\"noopener noreferrer\">और पढ़ें</a>।"
+
+#: src/Process.php:182
+msgid "Stripe payment stopped by conditional logic."
+msgstr "Stripe भुगतान सशर्त तर्क द्वारा बंद कर दिया ।"
+
+#: src/Process.php:196
+msgid "Stripe payment stopped, missing token."
+msgstr "Stripe भुगतान बंद, टोकन गायब।"
+
+#: src/Process.php:203
+msgid "Stripe payment stopped, missing keys."
+msgstr "Stripe भुगतान बंद, चाबी गायब।"
+
+#: src/Process.php:209
+msgid "Stripe payment stopped, missing payment fields."
+msgstr "Stripe भुगतान बंद हो गया, भुगतान फ़ील्ड गायब हैं।"
+
+#: src/Process.php:215
+msgid "Stripe payment stopped, invalid/empty amount."
+msgstr "Stripe भुगतान रोक दिया गया, अमान्य / खाली राशि है।"
+
+#: src/Process.php:364, src/Process.php:501
+msgid "Too many requests made to the API too quickly."
+msgstr "बहुत जल्दी API के लिए किए गए कई अनुरोध।"
+
+#: src/Process.php:368, src/Process.php:505
+msgid "Invalid parameters were supplied to Stripe API."
+msgstr "अवैध पैरामीटर को Stripe API के लिए आपूर्ति की गई थी।"
+
+#: src/Process.php:372, src/Process.php:509
+msgid "Authentication with Stripe API failed."
+msgstr "Stripe API के साथ प्रमाणीकरण विफल रहा।"
+
+#: src/Process.php:376, src/Process.php:513
+msgid "Network communication with Stripe failed."
+msgstr "Stripe के साथ नेटवर्क संचार विफल रहा।"
+
+#: src/Process.php:380, src/Process.php:517
+msgid "Unable to process Stripe payment."
+msgstr "Stripe भुगतान संसाधित करने में असमर्थ।"
+
+#: src/Process.php:385, src/Process.php:522
+msgid "Unable to process payment."
+msgstr "भुगतान संसाधित करने में असमर्थ।"
+
+#. translators: %s - error message.
+#. translators: %s - error message.
+#: src/Process.php:393, src/Process.php:530
+msgid "Credit Card Payment Error: %s"
+msgstr "क्रेडिट कार्ड भुगतान त्रुटि: %s"
+
+#: src/Process.php:399
+msgid "Stripe payment stopped by error"
+msgstr "Stripe भुगतान त्रुटि द्वारा बंद कर दिया"
+
+#: src/Process.php:418
+msgid "Stripe subscription payment stopped, missing form settings."
+msgstr "Stripe सदस्यता भुगतान बंद हो गया, फॉर्म सेटिंग गायब है।"
+
+#: src/Process.php:423
+msgid "Stripe subscription payment stopped, customer email not found."
+msgstr "Stripe सदस्यता भुगतान बंद कर दिया, ग्राहक ईमेल नहीं मिला।"
+
+#: src/Process.php:536
+msgid "Stripe subscription payment stopped by error"
+msgstr "Stripe सदस्यता भुगतान त्रुटि द्वारा बंद कर दिया"
+
+#: src/Process.php:590, src/Admin/Builder.php:196
+msgid "Daily"
+msgstr "प्रतिदिन"
+
+#: src/Process.php:598, src/Admin/Builder.php:197
+msgid "Weekly"
+msgstr "साप्ताहिक"
+
+#: src/Process.php:606, src/Admin/Builder.php:198
+msgid "Monthly"
+msgstr "मासिक"
+
+#: src/Process.php:614, src/Admin/Builder.php:199
+msgid "Quarterly"
+msgstr "त्रैमासिक"
+
+#: src/Process.php:622, src/Admin/Builder.php:200
+msgid "Semi-Yearly"
+msgstr "अर्ध-वार्षिक"
+
+#: src/Process.php:631, src/Admin/Builder.php:201
+msgid "Yearly"
+msgstr "वार्षिक"
+
+#: src/Admin/Builder.php:51
+msgid ""
+"When recurring subscription payments are enabled, the Customer Email is "
+"required. Please go to the Stripe payment settings and select a Customer "
+"Email."
+msgstr ""
+"जब आवर्ती सदस्यता भुगतान सक्षम होते हैं, तो ग्राहक ईमेल की आवश्यकता होती है। कृपया "
+"Stripe भुगतान सेटिंग पर जाएं और एक ग्राहक ईमेल चुनें।"
+
+#. translators: %s - Admin area Payments settings page URL.
+#: src/Admin/Builder.php:88
+msgid ""
+"Before enabling Stripe payments you need to setup your Stripe API keys (both "
+"Live and Test) on the <a href=\"%s\">Settings page</a>."
+msgstr ""
+"Stripe भुगतान को सक्षम करने से पहले आपको <a href=“%s”> सेटिंग पृष्ठ </a> पर अपनी "
+"Stripe API कुंजियाँ (लाइव और टेस्ट दोनों) सेटअप करने की आवश्यकता है।"
+
+#: src/Admin/Builder.php:102
+msgid "To use Stripe payments you need to add a Credit Card field to the form"
+msgstr "Stripe भुगतान का उपयोग करने के लिए आपको फॉर्म में क्रेडिट कार्ड फ़ील्ड जोड़ना होगा"
+
+#: src/Admin/Builder.php:110
+msgid "Enable Stripe payments"
+msgstr "Stripe भुगतान सक्षम करें"
+
+#: src/Admin/Builder.php:122
+msgid "Payment Description"
+msgstr "भुगतान का विवरण"
+
+#: src/Admin/Builder.php:125
+msgid ""
+"Enter your payment description. Eg: Donation for the soccer team. Only used "
+"for standard one-time payments."
+msgstr ""
+"अपना भुगतान विवरण दर्ज करें। उदा: सॉकर टीम के लिए दान। केवल मानक एकमुश्त भुगतान के लिए "
+"उपयोग किया जाता है।"
+
+#: src/Admin/Builder.php:134
+msgid "Stripe Payment Receipt"
+msgstr "Stripe भुगतान रसीद"
+
+#: src/Admin/Builder.php:138, src/Admin/Builder.php:217
+msgid "--- Select Email ---"
+msgstr "---ईमेल फ़ील्ड का चयन करें---"
+
+#: src/Admin/Builder.php:139
+msgid ""
+"If you would like to have Stripe send a receipt after payment, select the "
+"email field to use. This is optional but recommended. Only used for standard "
+"one-time payments."
+msgstr ""
+"यदि आप भुगतान के बाद Stripe भेजना चाहते हैं, तो उपयोग करने के लिए ईमेल फ़ील्ड चुनें। यह "
+"वैकल्पिक है लेकिन अनुशंसित है। केवल मानक एकमुश्त भुगतान के लिए उपयोग किया जाता है।"
+
+#: src/Admin/Builder.php:150, src/Admin/Builder.php:230
+msgid "Process"
+msgstr "प्रक्रिया"
+
+#: src/Admin/Builder.php:151, src/Admin/Builder.php:231
+msgid "Don't process"
+msgstr "प्रक्रिया न करें"
+
+#: src/Admin/Builder.php:153
+msgid "this charge if"
+msgstr "यह चार्ज अगर"
+
+#: src/Admin/Builder.php:164
+msgid "Enable recurring subscription payments"
+msgstr "पुनरावर्ती सदस्यता भुगतान सक्षम करें"
+
+#: src/Admin/Builder.php:177
+msgid "Plan Name"
+msgstr "योजना का नाम"
+
+#: src/Admin/Builder.php:181
+msgid ""
+"Enter the subscription name. Eg: Email Newsletter. Subscription period and "
+"price are automatically appended. If left empty the form name will be used."
+msgstr ""
+"सदस्यता नाम दर्ज करें। जैसे: ईमेल न्यूज़लेटर। सदस्यता अवधि और मूल्य स्वचालित रूप से संलग्न हैं। "
+"यदि खाली छोड़ दिया जाता है तो फॉर्म नाम का उपयोग किया जाएगा।"
+
+#: src/Admin/Builder.php:190
+msgid "Recurring Period"
+msgstr "आवर्ती अवधि"
+
+#: src/Admin/Builder.php:203
+msgid "How often you would like the charge to recur."
+msgstr "आप कितनी बार शुल्क वसूलना चाहेंगे।"
+
+#: src/Admin/Builder.php:212
+msgid "Customer Email"
+msgstr "ग्राहक ईमेल"
+
+#: src/Admin/Builder.php:218
+msgid ""
+"Select the field that contains the customers email address. This field is "
+"required."
+msgstr "उस फ़ील्ड का चयन करें जिसमें ग्राहक का ईमेल पता है। यह फ़ील्ड आवश्यक है।"
+
+#: src/Admin/Builder.php:233
+msgid "payment as recurring if"
+msgstr "आवर्ती के रूप में भुगतान यदि"
+
+#: src/Admin/Settings.php:64
+msgid "Stripe"
+msgstr "Stripe"
+
+#: src/Admin/Settings.php:71
+msgid "Test Secret Key"
+msgstr "परीक्षण गुप्त कुंजी"
+
+#: src/Admin/Settings.php:76
+msgid "Test Publishable Key"
+msgstr "टेस्ट पब्लिशेबल कुंजी"
+
+#: src/Admin/Settings.php:81
+msgid "Live Secret Key"
+msgstr "लाइव गुप्त कुंजी"
+
+#: src/Admin/Settings.php:86
+msgid "Live Publishable Key"
+msgstr "लाइव पब्लिशेबल कुंजी"
+
+#: src/Admin/Settings.php:91
+msgid "Test Mode"
+msgstr "परीक्षण मोड"
+
+#: src/Admin/Settings.php:92
+msgid "In test mode and no live Stripe transactions are processed."
+msgstr "परीक्षण मोड में और कोई लाइव Stripe लेनदेन संसाधित नहीं किया जाता है।"

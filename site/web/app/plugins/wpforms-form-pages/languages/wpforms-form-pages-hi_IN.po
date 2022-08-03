@@ -1,0 +1,130 @@
+# Copyright (C) 2018 WPForms Form Pages
+# This file is distributed under the same license as the WPForms Form Pages package.
+msgid ""
+msgstr ""
+"Project-Id-Version: WPForms Form Pages\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: WPForms <support@wpforms.com>\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;"
+"_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;"
+"esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n==0 || n==1);\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"X-Generator: Poedit 2.2\n"
+"Last-Translator: \n"
+"Language: hi\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#. translators: %s - WPForms.com documentation page URL.
+#: wpforms-form-pages.php:62
+msgid ""
+"The WPForms Form Pages plugin has been deactivated. Your site is running an "
+"outdated version of PHP that is no longer supported and is not compatible "
+"with the Form Pages addon. <a href=\"%s\" target=\"_blank\" rel=\"noopener "
+"noreferrer\">Read more</a> for additional information."
+msgstr ""
+"WPForms फॉर्म पेज प्लगइन निष्क्रिय कर दिया गया है। आपकी साइट PHP का पुराना संस्करण "
+"चला रही है जो अब समर्थित नहीं है और फॉर्म पेज के ऐडऑन के अनुकूल नहीं है। <a href=“%s” "
+"target=“_blank” rel=“noopener noreferrer”>और पढ़ें</a>।"
+
+#: src/Frontend.php:363, src/Admin/Builder.php:62, src/Admin/Builder.php:290
+msgid "Form Logo"
+msgstr "फॉर्म लोगो"
+
+#: templates/single-form.php:36
+msgid "This content is neither created nor endorsed by WPForms."
+msgstr "यह सामग्री न तो WPForms द्वारा बनाई गई है और न ही इसके समर्थन में है।"
+
+#: templates/single-form.php:38
+msgid "created with"
+msgstr "के साथ बनाया"
+
+#: src/Admin/Builder.php:63
+msgid "Select or Upload Form Custom Logo"
+msgstr "फॉर्म कस्टम लोगो का चयन करें या अपलोड करें"
+
+#: src/Admin/Builder.php:64
+msgid "Use this media"
+msgstr "इस मीडिया का उपयोग करें"
+
+#: src/Admin/Builder.php:88, src/Admin/Builder.php:106
+msgid "Form Pages"
+msgstr "फॉर्म पृष्ठ"
+
+#: src/Admin/Builder.php:117
+msgid "Enable Form Page Mode"
+msgstr "फॉर्म पृष्ठ मोड सक्षम करें"
+
+#: src/Admin/Builder.php:127
+msgid "Form Page Title"
+msgstr "फॉर्म पृष्ठ शीर्षक"
+
+#: src/Admin/Builder.php:135
+msgid "Message"
+msgstr "संदेश"
+
+#: src/Admin/Builder.php:140
+msgid "This content will display below the Form Page Title, above the form."
+msgstr "यह सामग्री फॉर्म के ऊपर, फॉर्म पेज शीर्षक के नीचे प्रदर्शित होगी।"
+
+#: src/Admin/Builder.php:149
+msgid "Permalink"
+msgstr "Permalink"
+
+#: src/Admin/Builder.php:155
+msgid "This is the URL for your form page."
+msgstr "यह आपके फॉर्म पृष्ठ के लिए URL है।"
+
+#: src/Admin/Builder.php:164
+msgid "Header Logo"
+msgstr "हैडर लोगो"
+
+#: src/Admin/Builder.php:169
+msgid "This is a custom logo."
+msgstr "यह एक कस्टम लोगो है।"
+
+#: src/Admin/Builder.php:180
+msgid "Color Scheme"
+msgstr "रंग प्रणाली"
+
+#: src/Admin/Builder.php:184
+msgid "This is color of the submit button and page background."
+msgstr "यह सबमिट बटन और पेज के बैकग्राउंड का रंग है।"
+
+#: src/Admin/Builder.php:193
+msgid "Style"
+msgstr "शैली"
+
+#: src/Admin/Builder.php:199
+msgid "Modern Design"
+msgstr "आधुनिक डिजाइन"
+
+#: src/Admin/Builder.php:203
+msgid "Classic Design"
+msgstr "क्लासिक डिजाइन"
+
+#: src/Admin/Builder.php:206
+msgid "Modern: Wider form, rounded corners, darker background"
+msgstr "आधुनिक: व्यापक रूप, गोल कोनों, गहरे रंग की पृष्ठभूमि"
+
+#: src/Admin/Builder.php:313
+msgid "Upload Image"
+msgstr "छवि अपलोड करें"
+
+#: src/Admin/Builder.php:336
+msgid "View"
+msgstr "देखें"
+
+#: src/Admin/Overview.php:58
+msgid "View Form Page"
+msgstr "फॉर्म पृष्ठ देखें"
+
+#: src/Admin/Overview.php:59
+msgid "Form Page Preview"
+msgstr "फॉर्म पृष्ठ पूर्वावलोकन"

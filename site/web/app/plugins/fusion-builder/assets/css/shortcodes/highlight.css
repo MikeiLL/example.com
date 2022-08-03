@@ -1,0 +1,11 @@
+.fusion-highlight {
+  padding: 0.1em 0.3em;
+  line-height: 1.7em;
+}
+.fusion-highlight.rounded {
+  border-radius: 4px;
+  background-clip: padding-box;
+}
+.fusion-highlight.dark {
+  color: #ccc;
+}

@@ -1,0 +1,265 @@
+# Copyright (C) 2019 WPForms Stripe
+# This file is distributed under the same license as the WPForms Stripe package.
+# Translators:
+# FX Bénard <fxb@wp-translations.org>, 2019
+# wpt cli <cli@wp-translations.org>, 2019
+# Ali Darwich <b.a.darwich@gmail.com>, 2019
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: WPForms Stripe\n"
+"Last-Translator: Ali Darwich <b.a.darwich@gmail.com>, 2019\n"
+"Language-Team: Japanese (https://www.transifex.com/wp-translations/teams/64435/ja/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#. translators: %s - WPForms.com documentation page URL.
+#: wpforms-stripe.php:62
+msgid ""
+"The WPForms Stripe plugin has been deactivated. Your site is running an "
+"outdated version of PHP that is no longer supported and is not compatible "
+"with the Stripe addon. <a href=\"%s\" target=\"_blank\" rel=\"noopener "
+"noreferrer\">Read more</a> for additional information."
+msgstr ""
+"「WPForms Stripe」プラグインは無効になっています。サイトはもはやサポートされていない古いバージョンの PHP "
+"を実行しており、「Stripe」アドオンとは互換性がありません。詳細について<a href=\"%s\" target=\"_blank\" "
+"rel=\"noopener noreferrer\">もっと読んでください</a>。"
+
+#: src/Process.php:182
+msgid "Stripe payment stopped by conditional logic."
+msgstr "Stripe 支払いは条件付きロジックによって停止されました。"
+
+#: src/Process.php:196
+msgid "Stripe payment stopped, missing token."
+msgstr "Stripe 支払いは停止されました。トークンがありません。"
+
+#: src/Process.php:203
+msgid "Stripe payment stopped, missing keys."
+msgstr "Stripe 支払いは停止されました。キーがありません。"
+
+#: src/Process.php:209
+msgid "Stripe payment stopped, missing payment fields."
+msgstr "Stripe 支払いは停止されました。支払いフィールドがありません。"
+
+#: src/Process.php:216
+msgid "Stripe payment stopped, invalid/empty amount."
+msgstr "Stripe 支払いは停止されました。無効 / 空の金額。"
+
+#: src/Process.php:218
+msgid "Stripe payment stopped, amount less than minimum charge required."
+msgstr "Stripe 支払いは停止されました。支払いフィールドがありません。最低料金より少ない金額が必要です。"
+
+#: src/Process.php368, src/Process.php:505
+msgid "Too many requests made to the API too quickly."
+msgstr "API に対するリクエストが多すぎます。"
+
+#: src/Process.php372, src/Process.php:509
+msgid "Invalid parameters were supplied to Stripe API."
+msgstr "無効なパラメーターが Stripe API に提供されました。"
+
+#: src/Process.php376, src/Process.php:513
+msgid "Authentication with Stripe API failed."
+msgstr "Stripe API による認証に失敗しました。"
+
+#: src/Process.php380, src/Process.php:517
+msgid "Network communication with Stripe failed."
+msgstr "Stripe とのネットワーク通信に失敗しました。"
+
+#: src/Process.php384, src/Process.php:521
+msgid "Unable to process Stripe payment."
+msgstr "Stripe の支払いを処理できません。"
+
+#: src/Process.php389, src/Process.php:526
+msgid "Unable to process payment."
+msgstr "支払いを処理できません。"
+
+#. translators: %s - error message.
+#. translators: %s - error message.
+#: src/Process.php397, src/Process.php:534
+msgid "Credit Card Payment Error: %s"
+msgstr "クレジットカードの支払いエラー : %s"
+
+#: src/Process.php:403
+msgid "Stripe payment stopped by error"
+msgstr "Stripe 支払いがエラーで停止しました"
+
+#: src/Process.php:422
+msgid "Stripe subscription payment stopped, missing form settings."
+msgstr "Stripe 購読の支払いが停止しました。フォーム設定がありません。"
+
+#: src/Process.php:427
+msgid "Stripe subscription payment stopped, customer email not found."
+msgstr "Stripe 購読の支払いが停止しました。顧客のメールアドレスがありません。"
+
+#: src/Process.php:540
+msgid "Stripe subscription payment stopped by error"
+msgstr "Stripe 購読の支払いがエラーで停止しました"
+
+#: src/Process.php594, src/Admin/Builder.php:196
+msgid "Daily"
+msgstr "毎日"
+
+#: src/Process.php602, src/Admin/Builder.php:197
+msgid "Weekly"
+msgstr "毎週"
+
+#: src/Process.php610, src/Admin/Builder.php:198
+msgid "Monthly"
+msgstr "月"
+
+#: src/Process.php618, src/Admin/Builder.php:199
+msgid "Quarterly"
+msgstr "四半期ごと"
+
+#: src/Process.php626, src/Admin/Builder.php:200
+msgid "Semi-Yearly"
+msgstr "半年ごと"
+
+#: src/Process.php635, src/Admin/Builder.php:201
+msgid "Yearly"
+msgstr "毎年"
+
+#: src/Admin/Builder.php:51
+msgid ""
+"When recurring subscription payments are enabled, the Customer Email is "
+"required. Please go to the Stripe payment settings and select a Customer "
+"Email."
+msgstr ""
+"定期購読の支払いが有効になっている場合は、カスタマーメールアドレスが必要です。Stripe 支払い設定に行き、顧客メールを選択してください。"
+
+#. translators: %s - Admin area Payments settings page URL.
+#: src/Admin/Builder.php:88
+msgid ""
+"Before enabling Stripe payments you need to setup your Stripe API keys (both"
+" Live and Test) on the <a href=\"%s\">Settings page</a>."
+msgstr ""
+"Stripe 支払いを有効にする前に、<a href=\"%s\">設定ページ</a>で Stripe API "
+"キー（ライブとテストの両方）を設定する必要があります。"
+
+#: src/Admin/Builder.php:102
+msgid "To use Stripe payments you need to add a Credit Card field to the form"
+msgstr "Stripe 支払いを使用するために、クレジットカードフィールドがフォームに追加される必要があります。"
+
+#: src/Admin/Builder.php:110
+msgid "Enable Stripe payments"
+msgstr "Stripe 支払いを有効化"
+
+#: src/Admin/Builder.php:122
+msgid "Payment Description"
+msgstr "支払いの説明"
+
+#: src/Admin/Builder.php:125
+msgid ""
+"Enter your payment description. Eg: Donation for the soccer team. Only used "
+"for standard one-time payments."
+msgstr "支払いの説明を入力してください。標準の1回払いにのみ使用されます。例:「サッカーチームへの寄付」"
+
+#: src/Admin/Builder.php:134
+msgid "Stripe Payment Receipt"
+msgstr "Stripe 支払い領収書"
+
+#: src/Admin/Builder.php138, src/Admin/Builder.php:217
+msgid "--- Select Email ---"
+msgstr "---メールを選択する---"
+
+#: src/Admin/Builder.php:139
+msgid ""
+"If you would like to have Stripe send a receipt after payment, select the "
+"email field to use. This is optional but recommended. Only used for standard"
+" one-time payments."
+msgstr ""
+"支払い後に Stripe "
+"に領収書を送信させたい場合は、使用するメールフィールドを選択します。これはオプションですが推奨されています。標準の1回払いにのみ使用されます。"
+
+#: src/Admin/Builder.php150, src/Admin/Builder.php:230
+msgid "Process"
+msgstr "処理"
+
+#: src/Admin/Builder.php151, src/Admin/Builder.php:231
+msgid "Don't process"
+msgstr "処理しない"
+
+#: src/Admin/Builder.php:153
+msgid "this charge if"
+msgstr "この料金"
+
+#: src/Admin/Builder.php:164
+msgid "Enable recurring subscription payments"
+msgstr "定期購読の支払いを有効化"
+
+#: src/Admin/Builder.php:177
+msgid "Plan Name"
+msgstr "プランネーム"
+
+#: src/Admin/Builder.php:181
+msgid ""
+"Enter the subscription name. Eg: Email Newsletter. Subscription period and "
+"price are automatically appended. If left empty the form name will be used."
+msgstr ""
+"購読ネームを入力してください。例：メールニュースレター。購読期間と価格が自動的に追加されます。空白のままにすると、フォームネームが使用されます。"
+
+#: src/Admin/Builder.php:190
+msgid "Recurring Period"
+msgstr "繰り返し期間"
+
+#: src/Admin/Builder.php:203
+msgid "How often you would like the charge to recur."
+msgstr "どのくらいの頻度で料金を再請求しますか？"
+
+#: src/Admin/Builder.php:212
+msgid "Customer Email"
+msgstr "顧客メールアドレス"
+
+#: src/Admin/Builder.php:218
+msgid ""
+"Select the field that contains the customers email address. This field is "
+"required."
+msgstr "顧客のメールアドレスを含むフィールドを選択してください。このフィールドは必須です。"
+
+#: src/Admin/Builder.php:233
+msgid "payment as recurring if"
+msgstr "定期支払いとして"
+
+#. translators: %s - WPForms.com Stripe documentation article URL.
+#: src/Admin/Settings.php:50
+msgid ""
+"Keys can be found in your Stripe account dashboard. For more information see"
+" our <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">Stripe "
+"documentation</a>."
+msgstr ""
+
+#: src/Admin/Settings.php:64
+msgid "Stripe"
+msgstr "Stripe"
+
+#: src/Admin/Settings.php:71
+msgid "Test Publishable Key"
+msgstr "テストの公開可能なキー"
+
+#: src/Admin/Settings.php:76
+msgid "Test Secret Key"
+msgstr "テストのシークレットキー"
+
+#: src/Admin/Settings.php:81
+msgid "Live Publishable Key"
+msgstr "ライブの公開可能なキー"
+
+#: src/Admin/Settings.php:86
+msgid "Live Secret Key"
+msgstr "ライブのシークレットキー"
+
+#: src/Admin/Settings.php:91
+msgid "Test Mode"
+msgstr "テストモード"
+
+#: src/Admin/Settings.php:92
+msgid "In test mode and no live Stripe transactions are processed."
+msgstr "テストモードでは、ライブStripeトランザクションは処理されません。"

@@ -1,0 +1,263 @@
+# Copyright (C) 2019 WPForms User Registration
+# This file is distributed under the same license as the WPForms User Registration package.
+# Translators:
+# Dionizio Bonfim Bach <translations@djio.com.br>, 2018
+# FX Bénard <fxb@wp-translations.org>, 2018
+# edson katayama <midiamentira@gmail.com>, 2019
+# Diana K. Cury <dianakac@gmail.com>, 2019
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: WPForms User Registration\n"
+"Last-Translator: Diana K. Cury <dianakac@gmail.com>, 2019\n"
+"Language-Team: Portuguese (Brazil) (https://www.transifex.com/wp-translations/teams/64435/pt_BR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: class-user-activation.php159, class-user-activation.php:231
+msgid "Approve"
+msgstr "Aprovar"
+
+#: class-user-activation.php160, class-user-activation.php:247
+msgid "Unapprove"
+msgstr "Rejeitar"
+
+#: class-user-activation.php:192
+msgid "Unapproved"
+msgstr "Rejeitado"
+
+#. translators: %s - number of users.
+#: class-user-activation.php:320
+msgid "%s user approved."
+msgid_plural "%s users approved."
+msgstr[0] "%s usuário aprovado."
+msgstr[1] "%s usuários aprovados."
+
+#. translators: %s - number of users.
+#: class-user-activation.php:325
+msgid "%s user unapproved."
+msgid_plural "%s users unapproved."
+msgstr[0] "%s usuário não aprovado."
+msgstr[1] "%s usuários não aprovados."
+
+#: class-user-activation.php:374
+msgid ""
+"<strong>ERROR:</strong> Your account must be activated before you can login."
+msgstr ""
+"<strong>ERRO:</strong> Sua conta deve estar ativada antes que você possa "
+"fazer o login."
+
+#: class-user-activation.php:493
+msgid "You can&#8217;t unapprove users."
+msgstr "Você não pode recusar usuários."
+
+#: class-user-login-template.php:20
+msgid "User Login Form"
+msgstr "Formulário de Login do Usuário"
+
+#: class-user-login-template.php:22
+msgid ""
+"Allow your users to easily login to your site with their username and "
+"password."
+msgstr ""
+"Permita que seus usuários acessem facilmente seu site com seu nome de "
+"usuário e senha."
+
+#: class-user-login-template.php:33
+msgid "Username or Email"
+msgstr "Nome de usuário ou e-mail"
+
+#: class-user-login-template.php44, class-user-registration-template.php62,
+#: class-user-registration.php:416
+msgid "Password"
+msgstr "Senha"
+
+#: class-user-login.php:75
+msgid "Hide the form if a user is already logged in"
+msgstr "Ocultar o formulário se um usuário já estiver conectado"
+
+#: class-user-registration-template.php:21
+msgid "User Registration Form"
+msgstr "Formulário de Inscrição do Usuário"
+
+#: class-user-registration-template.php:23
+msgid ""
+"Create customized WordPress user registration form and add them anywhere on "
+"your website."
+msgstr ""
+"Crie um formulário de registro de usuário personalizado para WordPress e "
+"adicione-o em qualquer lugar do seu site."
+
+#: class-user-registration-template.php:28
+msgid "Don&#39;t Forget"
+msgstr "Não esqueça"
+
+#: class-user-registration-template.php:29
+msgid ""
+"Additional user registration options are available in the settings panel."
+msgstr ""
+"Opções adicionais de registro do usuário estão disponíveis no painel de "
+"configurações."
+
+#: class-user-registration-template.php37, class-user-registration.php:403
+msgid "Name"
+msgstr "Nome"
+
+#: class-user-registration-template.php:44
+msgid "Username"
+msgstr "Nome de usuário"
+
+#: class-user-registration-template.php:51
+msgid "Email"
+msgstr "E-mail"
+
+#: class-user-registration-template.php:69
+msgid "Short Bio"
+msgstr "Biografia"
+
+#: class-user-registration-template.php:70
+msgid "Share a little information about yourself."
+msgstr "Compartilhe um pouco de informação sobre você."
+
+#: class-user-registration.php:121
+msgid "Email address is required."
+msgstr "É necessário um endereço de e-mail."
+
+#: class-user-registration.php:133
+msgid "A user with that username already exists."
+msgstr "Um usuário com esse nome já existe."
+
+#: class-user-registration.php:140
+msgid "A user with that email already exists."
+msgstr "Um usuário com este e-mail já existe."
+
+#: class-user-registration.php271, class-user-registration.php:310
+msgid "(Activation Required)"
+msgstr "(Ativação necessária)"
+
+#: class-user-registration.php:272
+msgid "Account activation is required before the user can login."
+msgstr ""
+"A ativação da conta é necessária antes que o usuário possa fazer o login."
+
+#: class-user-registration.php:275
+msgid "The user has been emailed a link to activate their account."
+msgstr "O usuário recebeu um link por e-mail para ativar sua conta."
+
+#: class-user-registration.php:277
+msgid "You must manually activate their account."
+msgstr "Você deve ativar manualmente sua conta."
+
+#: class-user-registration.php:317
+msgid ""
+"IMPORTANT: You must activate your account before you can login. Please visit"
+" the link below."
+msgstr ""
+"IMPORTANTE: Você deve ativar sua conta antes de poder fazer o login. Por "
+"favor, visite o link abaixo."
+
+#: class-user-registration.php:320
+msgid "Site administrator must activate your account before you can login."
+msgstr ""
+"O administrador do site deve ativar sua conta antes que você possa fazer o "
+"login."
+
+#: class-user-registration.php354, class-user-registration.php:377
+msgid "User Registration"
+msgstr "Registro do usuário"
+
+#: class-user-registration.php:388
+msgid "User Name"
+msgstr "Nome de usuário"
+
+#: class-user-registration.php391, class-user-registration.php406,
+#: class-user-registration.php432, class-user-registration.php445,
+#: class-user-registration.php:550
+msgid "--- Select Field ---"
+msgstr "--- Selecionar campo ---"
+
+#: class-user-registration.php:392
+msgid ""
+"If a username is not set or provided, it will become the user's email "
+"address"
+msgstr ""
+"Se um nome de usuário não for definido ou fornecido, ele se tornará o "
+"endereço de e-mail do usuário"
+
+#: class-user-registration.php:419
+msgid "Auto generate"
+msgstr "Gerar automaticamente"
+
+#: class-user-registration.php:429
+msgid "Website"
+msgstr "Website"
+
+#: class-user-registration.php:442
+msgid "Biographical Info"
+msgstr "Informações biográficas"
+
+#: class-user-registration.php:460
+msgid "User Role"
+msgstr "Papel do usuário"
+
+#: class-user-registration.php:473
+msgid "Send email to the user containing account information"
+msgstr "Enviar e-mail para o usuário que contém informações da conta"
+
+#: class-user-registration.php:482
+msgid "Send email to the admin"
+msgstr "Enviar e-mail para o administrador"
+
+#: class-user-registration.php:491
+msgid "Enable user activation"
+msgstr "Ativar ativação do usuário"
+
+#: class-user-registration.php:500
+msgid "User Activation Method"
+msgstr "Método de Ativação do Usuário"
+
+#: class-user-registration.php:504
+msgid "User Email"
+msgstr "E-mail do Usuário"
+
+#: class-user-registration.php:505
+msgid "Manual Approval"
+msgstr "Aprovação manual"
+
+#: class-user-registration.php:507
+msgid ""
+"User Email method sends an email to the user with a link to activate their "
+"account. Manual Approval requires site admin to approve account."
+msgstr ""
+"O método Email do usuário envia um e-mail para o usuário com um link para "
+"ativar sua conta. A aprovação manual exige que o administrador do site "
+"aprove a conta."
+
+#: class-user-registration.php:522
+msgid "User Activation Confirmation Page"
+msgstr "Página de confirmação de ativação do usuário"
+
+#: class-user-registration.php:524
+msgid "Home page"
+msgstr "Pagina inicial"
+
+#: class-user-registration.php:526
+msgid "Select the page to show the user after they activate their account."
+msgstr ""
+"Selecione a página para mostrar ao usuário depois de ativar sua conta."
+
+#: class-user-registration.php:532
+msgid "Custom User Meta"
+msgstr "Meta de usuário personalizado"
+
+#: class-user-registration.php:544
+msgid "Enter meta key..."
+msgstr "Digite a chave meta..."

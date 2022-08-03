@@ -1,0 +1,251 @@
+# Copyright (C) 2018 WPForms User Registration
+# This file is distributed under the same license as the WPForms User Registration package.
+msgid ""
+msgstr ""
+"Project-Id-Version: WPForms User Registration\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: WPForms <support@wpforms.com>\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;"
+"_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;"
+"esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n==0 || n==1);\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"X-Generator: Poedit 2.2\n"
+"Last-Translator: \n"
+"Language: hi\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: class-user-activation.php:159, class-user-activation.php:231
+msgid "Approve"
+msgstr "स्वीकार करना"
+
+#: class-user-activation.php:160, class-user-activation.php:247
+msgid "Unapprove"
+msgstr "अस्वीकृत करें"
+
+#: class-user-activation.php:192
+msgid "Unapproved"
+msgstr "अस्वीकृत"
+
+#. translators: %s - number of users.
+#: class-user-activation.php:320
+msgid "%s user approved."
+msgid_plural "%s users approved."
+msgstr[0] "%s उपयोगकर्ताओं ने स्वीकृति दी।"
+msgstr[1] "%s उपयोगकर्ता स्वीकृत।"
+
+#. translators: %s - number of users.
+#: class-user-activation.php:325
+msgid "%s user unapproved."
+msgid_plural "%s users unapproved."
+msgstr[0] "%s उपयोगकर्ता अस्वीकृत।"
+msgstr[1] "%s उपयोगकर्ता अस्वीकृत।"
+
+#: class-user-activation.php:374
+msgid ""
+"<strong>ERROR:</strong> Your account must be activated before you can login."
+msgstr "<strong>त्रुटि:</strong> लॉगिन करने से पहले आपका खाता सक्रिय होना चाहिए।"
+
+#: class-user-activation.php:493
+msgid "You can&#8217;t unapprove users."
+msgstr "आप उपयोगकर्ताओं को अस्वीकार नहीं कर सकते हैं।"
+
+#: class-user-login-template.php:20
+msgid "User Login Form"
+msgstr "उपयोगकर्ता लॉगिन फ़ॉर्म"
+
+#: class-user-login-template.php:22
+msgid ""
+"Allow your users to easily login to your site with their username and "
+"password."
+msgstr ""
+"अपने उपयोगकर्ताओं को अपने उपयोगकर्ता नाम और पासवर्ड के साथ आसानी से अपनी साइट पर "
+"लॉगिन करने की अनुमति दें।"
+
+#: class-user-login-template.php:33
+msgid "Username or Email"
+msgstr "उपयोगकर्ता नाम या ईमेल"
+
+#: class-user-login-template.php:44, class-user-registration-template.php:62,
+#: class-user-registration.php:416
+msgid "Password"
+msgstr "पासवर्ड"
+
+#: class-user-login.php:75
+msgid "Hide the form if a user is already logged in"
+msgstr "यदि उपयोगकर्ता पहले से ही लॉग इन है तो फॉर्म को छिपाएं"
+
+#: class-user-registration-template.php:21
+msgid "User Registration Form"
+msgstr "उपयोगकर्ता पंजीकरण फार्म"
+
+#: class-user-registration-template.php:23
+msgid ""
+"Create customized WordPress user registration form and add them anywhere on "
+"your website."
+msgstr ""
+"अनुकूलित वर्डप्रेस उपयोगकर्ता पंजीकरण फॉर्म बनाएं और उन्हें अपनी वेबसाइट पर कहीं भी जोड़ें।"
+
+#: class-user-registration-template.php:28
+msgid "Don&#39;t Forget"
+msgstr "मत भूलना"
+
+#: class-user-registration-template.php:29
+msgid ""
+"Additional user registration options are available in the settings panel."
+msgstr "अतिरिक्त उपयोगकर्ता पंजीकरण विकल्प सेटिंग्स पैनल में उपलब्ध हैं ।"
+
+#: class-user-registration-template.php:37, class-user-registration.php:403
+msgid "Name"
+msgstr "नाम"
+
+#: class-user-registration-template.php:44
+msgid "Username"
+msgstr "उपयोगकर्ता नाम"
+
+#: class-user-registration-template.php:51
+msgid "Email"
+msgstr "ईमेल"
+
+#: class-user-registration-template.php:69
+msgid "Short Bio"
+msgstr "लघु जीवनी"
+
+#: class-user-registration-template.php:70
+msgid "Share a little information about yourself."
+msgstr "अपने बारे में थोड़ी जानकारी साझा करें।"
+
+#: class-user-registration.php:121
+msgid "Email address is required."
+msgstr "ईमेल पते की आवश्यकता है।"
+
+#: class-user-registration.php:133
+msgid "A user with that username already exists."
+msgstr "उस उपयोगकर्ता नाम के साथ एक प्रयोक्ता पहले से मौजूद है।"
+
+#: class-user-registration.php:140
+msgid "A user with that email already exists."
+msgstr "उस ईमेल के साथ एक उपयोगकर्ता पहले से मौजूद है।"
+
+#: class-user-registration.php:271, class-user-registration.php:310
+msgid "(Activation Required)"
+msgstr "(सक्रियण आवश्यक)"
+
+#: class-user-registration.php:272
+msgid "Account activation is required before the user can login."
+msgstr "उपयोगकर्ता लॉगिन कर सकने से पहले खाता सक्रियण आवश्यक है।"
+
+#: class-user-registration.php:275
+msgid "The user has been emailed a link to activate their account."
+msgstr "उपयोगकर्ता अपने खाते को सक्रिय करने के लिए एक लिंक ईमेल किया गया है।"
+
+#: class-user-registration.php:277
+msgid "You must manually activate their account."
+msgstr "आपको मैन्युअल रूप से उनके खाते को सक्रिय करना होगा।"
+
+#: class-user-registration.php:317
+msgid ""
+"IMPORTANT: You must activate your account before you can login. Please visit "
+"the link below."
+msgstr ""
+"महत्वपूर्ण: लॉगिन करने से पहले आपको अपना खाता सक्रिय करना होगा। कृपया नीचे दिए गए लिंक "
+"पर जाएं।"
+
+#: class-user-registration.php:320
+msgid "Site administrator must activate your account before you can login."
+msgstr "लॉगिन करने से पहले साइट व्यवस्थापक को आपके खाते को सक्रिय करना होगा।"
+
+#: class-user-registration.php:354, class-user-registration.php:377
+msgid "User Registration"
+msgstr "उपयोगकर्ता पंजीकरण"
+
+#: class-user-registration.php:388
+msgid "User Name"
+msgstr "उपयोगकर्ता नाम"
+
+#: class-user-registration.php:391, class-user-registration.php:406,
+#: class-user-registration.php:432, class-user-registration.php:445,
+#: class-user-registration.php:550
+msgid "--- Select Field ---"
+msgstr "—फ़ील्ड का चयन—"
+
+#: class-user-registration.php:392
+msgid ""
+"If a username is not set or provided, it will become the user's email address"
+msgstr ""
+"यदि उपयोगकर्ता नाम सेट या उपलब्ध नहीं है, तो यह उपयोगकर्ता का ईमेल पता बन जाएगा"
+
+#: class-user-registration.php:419
+msgid "Auto generate"
+msgstr "स्वत: जनरेट करें"
+
+#: class-user-registration.php:429
+msgid "Website"
+msgstr "वेबसाइट"
+
+#: class-user-registration.php:442
+msgid "Biographical Info"
+msgstr "जीवन संबंधी जानकारी"
+
+#: class-user-registration.php:460
+msgid "User Role"
+msgstr "उपयोगकर्ता भूमिका"
+
+#: class-user-registration.php:473
+msgid "Send email to the user containing account information"
+msgstr "खाता जानकारी वाले उपयोगकर्ता को ईमेल भेजें"
+
+#: class-user-registration.php:482
+msgid "Send email to the admin"
+msgstr "व्यवस्थापक को ईमेल भेजें"
+
+#: class-user-registration.php:491
+msgid "Enable user activation"
+msgstr "उपयोगकर्ता सक्रियण सक्षम करें"
+
+#: class-user-registration.php:500
+msgid "User Activation Method"
+msgstr "उपयोगकर्ता सक्रियण विधि"
+
+#: class-user-registration.php:504
+msgid "User Email"
+msgstr "उपयोगकर्ता ईमेल"
+
+#: class-user-registration.php:505
+msgid "Manual Approval"
+msgstr "मैनुअल स्वीकृति"
+
+#: class-user-registration.php:507
+msgid ""
+"User Email method sends an email to the user with a link to activate their "
+"account. Manual Approval requires site admin to approve account."
+msgstr ""
+"उपयोगकर्ता ईमेल विधि अपने खाते को सक्रिय करने के लिए लिंक के साथ उपयोगकर्ता को एक ईमेल "
+"भेजती है। मैनुअल स्वीकृति के लिए खाता स्वीकृत करने के लिए साइट व्यवस्थापक की आवश्यकता होती "
+"है।"
+
+#: class-user-registration.php:522
+msgid "User Activation Confirmation Page"
+msgstr "उपयोगकर्ता सक्रियण पुष्टिकरण पृष्ठ"
+
+#: class-user-registration.php:524
+msgid "Home page"
+msgstr "मुख पृष्ठ"
+
+#: class-user-registration.php:526
+msgid "Select the page to show the user after they activate their account."
+msgstr "अपना खाता सक्रिय करने के बाद उपयोगकर्ता को दिखाने के लिए पृष्ठ का चयन करें।"
+
+#: class-user-registration.php:532
+msgid "Custom User Meta"
+msgstr "कस्टम उपयोगकर्ता मेटा"
+
+#: class-user-registration.php:544
+msgid "Enter meta key..."
+msgstr "मेटा कुंजी दर्ज करें…"

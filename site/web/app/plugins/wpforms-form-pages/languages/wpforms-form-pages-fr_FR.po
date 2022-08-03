@@ -1,0 +1,160 @@
+# Copyright (C) 2019 WPForms Form Pages
+# This file is distributed under the same license as the WPForms Form Pages package.
+# Translators:
+# Ⓦolforg <contact@wolforg.eu>, 2019
+# FX Bénard <fxb@wp-translations.org>, 2019
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: WPForms Form Pages\n"
+"Last-Translator: fxbenard pour WP-Translations <fx@wp-translations.pro>\n"
+"Language-Team: French (France) (https://www.transifex.com/wp-translations/"
+"teams/64435/fr_FR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr_FR\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;"
+"_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;"
+"esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"X-Generator: Poedit 2.2.1\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#. translators: %s - WPForms.com documentation page URL.
+#: wpforms-form-pages.php:62
+msgid ""
+"The WPForms Form Pages plugin has been deactivated. Your site is running an "
+"outdated version of PHP that is no longer supported and is not compatible "
+"with the Form Pages addon. <a href=\"%s\" target=\"_blank\" rel=\"noopener "
+"noreferrer\">Read more</a> for additional information."
+msgstr ""
+"L’extension WPForms Form Pages a été désactivée. Votre site utilise une "
+"version obsolète de PHP qui n’est plus prise en charge et incompatible avec "
+"le module Form Pages. <a href=\"%s\" target=\"_blank\" rel=\"noopener "
+"noreferrer\">Lire la suite</a> pour des informations complémentaires."
+
+#: src/Frontend.php382, src/Admin/Builder.php64, src/Admin/Builder.php:311
+msgid "Form Logo"
+msgstr "Logo du formulaire"
+
+#: src/Frontend.php:436
+msgid "created with"
+msgstr "crée avec"
+
+#: src/Admin/Builder.php:62
+msgid ""
+"Form Pages cannot be enabled if Conversational Forms is enabled at the same "
+"time."
+msgstr ""
+"Forms Pages ne peut pas être activé si Conversational Forms est activé en "
+"même temps."
+
+#: src/Admin/Builder.php:63
+msgid "OK"
+msgstr "OK"
+
+#: src/Admin/Builder.php:65
+msgid "Select or Upload Form Custom Logo"
+msgstr "Sélectionner ou téléverser le logo personnalisé du formulaire"
+
+#: src/Admin/Builder.php:66
+msgid "Use this image"
+msgstr "Utiliser cette image"
+
+#: src/Admin/Builder.php90, src/Admin/Builder.php:108
+msgid "Form Pages"
+msgstr "Form Pages"
+
+#: src/Admin/Builder.php:119
+msgid "Enable Form Page Mode"
+msgstr "Activer le mode Form Page"
+
+#: src/Admin/Builder.php:129
+msgid "Form Page Title"
+msgstr "Titre de la page de formulaire"
+
+#: src/Admin/Builder.php:137
+msgid "Message"
+msgstr "Message"
+
+#: src/Admin/Builder.php:142
+msgid "This content will display below the Form Page Title, above the form."
+msgstr ""
+"Ce contenu sera affiché sous le titre de la page de formulaire, au dessus "
+"du formulaire."
+
+#: src/Admin/Builder.php:151
+msgid "Permalink"
+msgstr "Permalien"
+
+#: src/Admin/Builder.php:157
+msgid "This is the URL for your form page."
+msgstr "Ceci est l’URL dse votre page de formulaire."
+
+#: src/Admin/Builder.php:166
+msgid "Header Logo"
+msgstr "Logo d’en-tête"
+
+#: src/Admin/Builder.php:171
+msgid "This is a custom logo."
+msgstr "Ceci est un logo personnalisé."
+
+#: src/Admin/Builder.php:180
+msgid "Footer Text"
+msgstr "Texte du pied de page"
+
+#: src/Admin/Builder.php:182
+msgid "This content is neither created nor endorsed by WPForms."
+msgstr "Ce contenu n'est ni créé ni approuvé par WPForms."
+
+#: src/Admin/Builder.php:191
+msgid "Hide WPForms Branding"
+msgstr "Masquer la marque WPForms"
+
+#: src/Admin/Builder.php:201
+msgid "Color Scheme"
+msgstr "Jeu de couleurs"
+
+#: src/Admin/Builder.php:205
+msgid "This is color of the submit button and page background."
+msgstr ""
+"Ceci est la couleur du bouton d’envoi et de l’arrière-plan de la page."
+
+#: src/Admin/Builder.php:214
+msgid "Style"
+msgstr "Style"
+
+#: src/Admin/Builder.php:220
+msgid "Modern Design"
+msgstr "Conception moderne"
+
+#: src/Admin/Builder.php:224
+msgid "Classic Design"
+msgstr "Conception classique"
+
+#: src/Admin/Builder.php:227
+msgid "Modern: Wider form, rounded corners, darker background"
+msgstr ""
+"Moderne : Formulaire plus large, coins arrondis, arrière-plan plus sombre"
+
+#: src/Admin/Builder.php:334
+msgid "Upload Image"
+msgstr "Téléverser une image"
+
+#: src/Admin/Builder.php:357
+msgid "View"
+msgstr "Voir"
+
+#: src/Admin/Overview.php:58
+msgid "View Form Page"
+msgstr "Voir la page de formulaire"
+
+#: src/Admin/Overview.php:59
+msgid "Form Page Preview"
+msgstr "Aperçu de la page de formulaire"

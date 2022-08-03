@@ -1,0 +1,22 @@
+.fusion-post-cards .fusion-grid {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin-bottom: 0;
+  padding: 0;
+}
+.fusion-post-cards .fusion-grid .product-list-view {
+  width: 100%;
+}
+.fusion-post-cards .fusion-grid > li:last-child > .fusion-absolute-separator {
+  display: none;
+}
+.fusion-post-cards .fusion-grid.fusion-flex-align-items-stretch > .fusion-grid-column > .fusion-column-wrapper > .fusion-builder-row-inner:first-of-type:last-of-type {
+  flex: 1;
+}
+.fusion-post-cards .fusion-grid-column {
+  margin-bottom: 0 !important;
+}
+.fusion-post-cards.fusion-carousel .fusion-carousel-item {
+  display: block !important;
+}

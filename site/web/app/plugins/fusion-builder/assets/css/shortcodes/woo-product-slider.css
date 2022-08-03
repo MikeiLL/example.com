@@ -1,0 +1,19 @@
+.fusion-woo-product-slider {
+  overflow: hidden;
+  margin-bottom: 55px;
+}
+.fusion-woo-product-slider .fusion-rollover .price {
+  margin-top: 5px;
+}
+.fusion-woo-product-slider .fusion-rollover .price .amount {
+  font-size: 18px;
+}
+.fusion-woo-product-slider .onsale {
+  top: 20px;
+  left: 15px;
+  z-index: auto;
+}
+.rtl .fusion-woo-product-slider .onsale {
+  left: auto;
+  right: 15px;
+}
