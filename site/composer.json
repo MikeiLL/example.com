@@ -60,6 +60,9 @@
   "require": {
     "php": ">=7.1",
     "composer/installers": "^1.8",
+    "deliciousbrains-plugin/wp-migrate-db-pro": "*",
+    "deliciousbrains-plugin/wp-migrate-db-pro-cli": "*",
+    "deliciousbrains-plugin/wp-migrate-db-pro-media-files": "*",
     "vlucas/phpdotenv": "^5.2",
     "oscarotero/env": "^2.1",
     "roots/bedrock-autoloader": "^1.0",
